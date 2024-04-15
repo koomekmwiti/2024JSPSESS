@@ -1,0 +1,23 @@
+﻿<div class="dropdown d-inline-block">
+    <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <!--
+        <img class="rounded-circle header-profile-user" src="~/assets/images/users/avatar-1.jpg"
+             alt="Header Avatar">
+        -->
+        <i class="uil uil-user-circle font-size-18 rounded-circle header-profile-user"></i>
+        <span class="d-none d-xl-inline-block ms-1 fw-medium font-size-15">@{
+                //@User.Identity.Name
+            }</span>
+        <i class="uil-angle-down d-none d-xl-inline-block font-size-15"></i>
+    </button>
+    <div class="dropdown-menu dropdown-menu-end">
+        <!-- item-->
+        <a class="dropdown-item" href="~/Identity/Account/Manage/Index"><i class="uil uil-user-circle font-size-18 align-middle text-muted me-1"></i> <span class="align-middle">View Profile</span></a>
+        <a class="dropdown-item" href="~/Identity/Account/Manage/Email"><i class="uil uil-fast-mail font-size-18 align-middle text-muted me-1"></i> <span class="align-middle">Change Email</span></a>
+        <a class="dropdown-item" href="~/Identity/Account/Manage/ChangePassword"><i class="uil-comment-alt-check font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">Change Password</span></a>
+        <a class="dropdown-item" href="~/Identity/Account/Manage/TwoFactorAuthentication"><i class="uil uil-lock-access font-size-18 align-middle text-muted me-1"></i> <span class="align-middle">Two-factor authentication</span></a>
+        <a class="dropdown-item" href="~/Identity/Account/Manage/PersonalData"><i class="uil uil-file-alt font-size-18 align-middle text-muted me-1"></i> <span class="align-middle">Personal data</span></a>
+        <a class="dropdown-item" href="~/Identity/Account/Logout"><i class="uil uil-sign-out-alt font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">Sign out</span></a>
+    </div>
+</div>

@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Employee Self-Service Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Track your financial future today" name="description" />
+    <meta content="Zamara Group" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/assets/images/jsps-logo.png">
+
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    @if (IsSectionDefined("AppStyles"))
+    {
+        @await RenderSectionAsync("AppStyles", required: false)
+    }
+</head>
+
+<body class="authentication-bg">
+    <div class="account-pages my-5 pt-sm-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="mb-5 d-block auth-logo">
+                            <img src="~/assets/images/jsps-logo.png" alt="" height="60" class="logo logo-dark">
+                            <img src="~/assets/images/jsps-logo.png" alt="" height="60" class="logo logo-light">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end row -->
+            @RenderBody()
+
+
+        </div>
+        <!-- end container -->
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    @if (IsSectionDefined("AppScripts"))
+    {
+        @await RenderSectionAsync("AppScripts", required: false)
+    }
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+
+</body>
+</html>

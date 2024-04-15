@@ -1,0 +1,134 @@
+﻿@model IEnumerable<DeftOData.DEFT_CompanyActivitiesLines>;
+
+@{
+    DeftOData.DEFT_EmployeeCard employeeCard = ViewBag.DEFT_EmployeeCard;
+    DeftOData.DEFT_CompanyActivitiesCard activityCard = ViewBag.DEFT_CompanyActivitiesCard;
+
+    string Dept = employeeCard.Global_Dimension_1_Code;
+
+    DateTime Today = DateTime.Now;
+
+    bool showItem = true;
+    if (activityCard.Specific_Department ?? false)
+    {
+        if (!Dept.Equals(activityCard.Department))
+        {
+            showItem = false;
+        }
+    }
+
+    if (activityCard.Valid_Till != null)
+    {
+
+        if (Today > activityCard.Valid_Till)
+        {
+            showItem = false;
+        }
+
+    }
+}
+
+@section AppStyles {
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <!--Start of Page Title-->
+            <h4 class="mb-0">Notice Board| @activityCard.Code @activityCard.Name</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">ESS</a></li>
+                    <li class="breadcrumb-item active">Notice Board</li>
+                </ol>
+            </div>
+            <!--End of Breadcrumb-->
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <h5 style="display:inline">Details </h5>
+                    <div style="display:inline" class="float-end">
+                        <a asp-action="Index"> <i class="fa fa-list" title="List" style="font-size: 23px;"></i></a>
+                    </div>
+                </div>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["Message"]
+                    </div>
+                }
+
+                @if (showItem)
+                {
+                    <div class="row g-0 p-2">
+                        <div class="col-md-8">
+                            <h4>Items</h4>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Comments</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (DeftOData.DEFT_CompanyActivitiesLines line in Model)
+                                    {
+                                        <tr>
+                                            <td>@line.Activity_Description</td>
+                                            <td>@line.Addational_Comments</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div>Access denied!</div>
+                }
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section AppScripts {
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- form repeater js -->
+    <script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+    <script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+
+}
+
+

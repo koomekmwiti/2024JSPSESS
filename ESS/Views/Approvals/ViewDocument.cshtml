@@ -1,0 +1,289 @@
+﻿@model DeftOData.DEFT_EmployeeLeaveApplicationCard;
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@section AppStyles {
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <!--Start of Page Title-->
+            <h4 class="mb-0">@ViewData["Title"]</h4>
+            <!--End of Page Title-->
+            <!--Start of Breadcrumb-->
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+                    <li class="breadcrumb-item">Leave</li>
+                    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                </ol>
+            </div>
+            <!--End of Breadcrumb-->
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <h5 style="display:inline">Details </h5>
+                    <div style="display:inline" class="float-end">
+                        <a asp-action="Index"> <i class="fa fa-list" title="List" style="font-size: 23px;"></i></a>
+                    </div>
+                </div>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["Message"]
+                    </div>
+                }
+
+                <div class="row g-0 p-2">
+                    <div class="col-md-8">
+                        <dl class="row">
+                            <dt class="col-sm-4">
+                                Application Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Application_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Apply on Behalf
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Apply_on_behalf)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Employee Number
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Employee_No)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Employee Name
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Employee_Name)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Employment Type
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Employment_Type)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Responsibility Center
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Responsibility_Center)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Mobile Number
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Mobile_No)
+                            </dd>
+                            <dt class="col-sm-4">
+                                User ID
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.User_ID)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Shortcut Dimension 1 Code
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Shortcut_Dimension_1_Code)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Period
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Period)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Code
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Code)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Status
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Status)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Status
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Status)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Entitlement
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Entitlment)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Balance Brought Forward
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Balance_brought_forward)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Earned to Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Earned_to_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Adjustments
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.LeaveAdjustments)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Total Leave Days Taken
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Total_Leave_Days_Taken)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Recalled Days
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Recalled_Days)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Days Absent
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Days_Absent)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Off Days
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Off_Days)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Balance
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_balance)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Planner Start Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Planner_Start_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Return Same Day
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Return_same_day)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Days Applied
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Days_Applied)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Start Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Start_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                End Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.End_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Resumption Date
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Resumption_Date)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Annual Leave Entitlement Balance
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Annual_Leave_Entitlement_Bal)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Duties Taken Over By
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Duties_Taken_Over_By)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Relieving Name
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Relieving_Name)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Leave Allowance Payable
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.Leave_Allowance_Payable)
+                            </dd>
+                            <dt class="col-sm-4">
+                                Number of Approvals
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Html.DisplayFor(model => model.No_of_Approvals)
+                            </dd>
+                        </dl>
+
+                        <div class="row">
+                            <div style="display:inline" class="float-end">
+                                <a class="btn btn-primary">Approve</a> &nbsp; <a class="btn btn-danger">Reject</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section AppScripts {
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- form repeater js -->
+    <script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+    <script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+
+}

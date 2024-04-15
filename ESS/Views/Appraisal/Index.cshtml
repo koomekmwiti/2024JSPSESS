@@ -1,0 +1,197 @@
+﻿@{
+    IEnumerable<DeftOData.DEFT_AppraisalCard> AppraisalList = ViewBag.AppraisalQuery;
+}
+
+@{
+    ViewData["Title"] = "My Appraisal List";
+}
+
+@section AppStyles {
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <!--Start of Page Title-->
+            <h4 class="mb-0">@ViewData["Title"]</h4>
+            <!--End of Page Title-->
+            <!--Start of Breadcrumb-->
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+                    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                </ol>
+            </div>
+            <!--End of Breadcrumb-->
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <h5 style="display:inline">List </h5>
+                    <a asp-action="AddAppraisalCard"> <i class="fa fa-plus float-end" title="Add" style="font-size: 23px;"></i></a>
+                </div>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["Message"]
+                    </div>
+                }
+                <div class="row g-0 p-2">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#active" role="tab">
+                                <span class="d-block d-sm-none"><i class="fa fa-home"></i></span>
+                                <span class="d-none d-sm-block">Open</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#completed" role="tab">
+                                <span class="d-block d-sm-none"><i class="fa fa-user"></i></span>
+                                <span class="d-none d-sm-block">Completed</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content p-3 text-muted">
+                        <div class="tab-pane active" id="active" role="tabpanel">
+
+                            <div class="table-rep-plugin">
+                                <div class="table-responsive mb-0" data-pattern="priority-columns">
+
+                                    <div class="table-responsive">
+                                        <table class="table mb-0 table-borderless table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Appraisal No.</th>
+                                                    <th>Appraisal Period</th>
+                                                    <th>Period Start</th>
+                                                    <th>Period End</th>
+                                                    <th>Appraisal Type</th>
+                                                    <th>Total Weighting</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in AppraisalList)
+                                                {
+                                                    if (item.Status.Equals("Open"))
+                                                    {
+                                                        <tr>
+                                                            <td>@item.Appraisal_No</td>
+                                                            <td>@item.Appraisal_Period</td>
+                                                            <td>@item.Period_Start</td>
+                                                            <td>@item.Period_End</td>
+                                                            <td>@item.AppraisalType</td>
+                                                            <td>@item.Total_Weighting</td>
+                                                            <td>
+                                                                <a asp-action="Details" asp-route-id="@item.Appraisal_No">Details</a> |
+                                                                <a asp-action="Edit" asp-route-id="@item.Appraisal_No">Edit</a> 
+                                                            </td>
+                                                        </tr>
+                                                    }
+
+                                                }
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane" id="completed" role="tabpanel">
+
+                            <div class="table-rep-plugin">
+                                <div class="table-responsive mb-0" data-pattern="priority-columns">
+                                    <div class="table-responsive">
+
+                                        <div class="table-responsive">
+                                            <table class="table mb-0 table-borderless table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Appraisal No.</th>
+                                                        <th>Appraisal Period</th>
+                                                        <th>Period Start</th>
+                                                        <th>Period End</th>
+                                                        <th>Appraisal Type</th>
+                                                        <th>Total Weighting</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var item in AppraisalList)
+                                                    {
+                                                        if (item.Status.Equals("Completed"))
+                                                        {
+                                                            <tr>
+                                                                <td>@item.Appraisal_No</td>
+                                                                <td>@item.Appraisal_Period</td>
+                                                                <td>@item.Period_Start</td>
+                                                                <td>@item.Period_End</td>
+                                                                <td>@item.AppraisalType</td>
+                                                                <td>@item.Total_Weighting</td>
+                                                                <td>
+                                                                    <a asp-action="Details" asp-route-id="@item.Appraisal_No">Details</a> 
+                                                                </td>
+                                                            </tr>
+                                                        }
+
+                                                    }
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section AppScripts {
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- form repeater js -->
+    <script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+    <script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+
+}
+

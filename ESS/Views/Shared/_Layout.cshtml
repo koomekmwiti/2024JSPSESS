@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Employee Self-Service Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Deft Technologies" name="description" />
+    <meta content="Amivast" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/assets/images/jsps-logo.png">
+
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    @if (IsSectionDefined("AppStyles"))
+    {
+        @await RenderSectionAsync("AppStyles", required: false)
+    }
+</head>
+
+
+<body>
+
+    <!-- <body data-layout="horizontal" data-topbar="colored"> -->
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <!--Page Topbar Start-->
+        @await Html.PartialAsync("_Page_Topbar")
+        <!--Page Topbar End-->
+
+        <!-- ========== Left Sidebar Start ========== -->
+        @await Html.PartialAsync("_Left_Sidebar")
+        <!-- Left Sidebar End -->
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    @RenderBody()
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+            
+
+            <!--Start of Footer-->
+            @await Html.PartialAsync("_Footer")
+            <!--End of Footer-->
+
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+    <!-- Right Sidebar -->
+    @await Html.PartialAsync("_Right_Sidebar")
+    <!-- /Right-bar -->
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- apexcharts -->
+    <script src="~/assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <script src="~/assets/js/pages/dashboard.init.js"></script>
+    @if (IsSectionDefined("AppScripts"))
+    {
+        @await RenderSectionAsync("AppScripts", required: false)
+    }
+    @await RenderSectionAsync("Scripts", required: false)
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+    
+
+</body>
+
+</html>

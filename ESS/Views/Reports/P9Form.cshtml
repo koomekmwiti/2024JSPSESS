@@ -1,0 +1,112 @@
+﻿@using ESS.Models;
+
+@{
+    IEnumerable<DeftOData.DEFT_PayPeriod> AccountingPeriods = ViewBag.PayPeriods;
+    string SiteURL = ViewBag.SiteURL;
+}
+
+@section AppStyles {
+    <link href="~/assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <!--Start of Page Title-->
+            <h4 class="mb-0">P9 Forms</h4>
+            <!--End of Page Title-->
+            <!--Start of Breadcrumb-->
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);"></a> ESS</li>
+                    <li class="breadcrumb-item"></a>HR Reports</li>
+                    <li class="breadcrumb-item active">P9 Forms</li>
+                </ol>
+            </div>
+            <!--End of Breadcrumb-->
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <h6 class="card-title mb-2">Generate P9 Form</h6>
+                <form asp-action="DownloadP9Form" method="get">
+
+                    <div class="row">
+                        <div class="col-lg-3 m-0">
+                            <label>Select a Financial Period</label>
+                            @{
+                                string PeriodName = "";
+                                Microsoft.OData.Edm.Date StartDate = new Microsoft.OData.Edm.Date();
+                                Microsoft.OData.Edm.Date EndDate = new Microsoft.OData.Edm.Date();
+
+                                DateTime dt1 = new DateTime();
+                                DateTime dt2 = new DateTime();
+                            }
+                            <select id="period" name="Period" class="form-control">
+                                @foreach (var period in AccountingPeriods)
+                                {
+                                    {
+                                        StartDate = period.Starting_Date;
+                                        EndDate = period.Starting_Date.AddMonths(11);
+                                        dt1 = new DateTime(StartDate.Year, StartDate.Month, StartDate.Day);
+                                        dt2 = new DateTime(EndDate.Year, EndDate.Month, DateTime.DaysInMonth(EndDate.Year, EndDate.Month));
+
+                                        PeriodName = dt1.ToString("dd MMM yyyy") + " to " + dt2.ToString("dd MMM yyyy");
+                                    }
+
+                                    <option value="@period.Starting_Date">@PeriodName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <!--
+                        <div class="col-lg-2">
+                            <label>&nbsp;&nbsp;</label>
+                            <button type="button" onclick="print_pdf()" class="btn btn-secondary form-control">Print <i class="fa fa-file-open"></i></button>
+                        </div>
+                        -->
+                        
+                        <div class="col-lg-2">
+                            <label>&nbsp;&nbsp;</label>
+                            <button type="submit" class="btn btn-secondary form-control">Download <i class="fa fa-file-open"></i></button>
+                        </div>
+                        <div class="offset-lg-3 col-lg-3">
+                            <label>&nbsp;</label>
+                            <!--<button onclick="#" class="btn btn-outline-secondary float-end form-control"> Take a Tour of the Statement</button>-->
+                        </div>
+                    </div>
+
+                    <div style="height: 700px; width: 100%;"></div>
+
+                </form>
+            </div><!-- end card body -->
+
+
+        </div><!-- end card -->
+    </div><!-- end col -->
+</div><!-- end row -->
+@section AppScripts {
+    <!-- plugins -->
+    <script src="~/assets/libs/select2/js/select2.min.js"></script>
+
+    <script src="~/assets/printjs/print.min.js"></script>
+
+    @{
+        string url = SiteURL + "Reports/DownloadP9Form?period=";
+    }
+
+    <script>
+        function print_pdf() {
+
+            var period = $('#period option:selected').val();
+
+            var url = '@url' + period;
+
+            printJS({ printable: url, type: 'pdf', showModal: true, modalMessage: 'Retrieving Statement...' });
+        }
+    </script>
+}

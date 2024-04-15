@@ -1,0 +1,49 @@
+﻿<header id="page-topbar">
+    <div class="navbar-header">
+        <div class="d-flex">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <a href="index.html" class="logo logo-dark">
+
+                    <span class="logo-lg">
+                        <img src="~/assets/images/jsps-logo.png" alt="" height="67">
+                    </span>
+                </a>
+
+            </div>
+
+            <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect vertical-menu-btn">
+                <i class="fa fa-fw fa-bars"></i>
+            </button>
+
+        </div>
+
+        <div class="d-flex">
+
+            <div class=" d-none d-lg-inline-block ms-1">
+                <button type="button" onClick="location.href='/'" class="btn header-item noti-icon waves-effect">
+                    <i class="uil-home-alt"></i>
+                </button>
+            </div>
+
+            <div class="dropdown d-none d-lg-inline-block ms-1">
+                <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
+                    <i class="uil-minus-path"></i>
+                </button>
+            </div>
+
+            @await Component.InvokeAsync("Notification", new { username = User.Identity.Name})
+
+            @await Component.InvokeAsync("User")
+
+            <!--
+            <div class="dropdown d-inline-block">
+                <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                    <i class="uil-cog"></i>
+                </button>
+            </div>
+            -->
+
+        </div>
+    </div>
+</header>

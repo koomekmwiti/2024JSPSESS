@@ -1,0 +1,311 @@
+﻿@{
+	DeftOData.DEFT_EmployeeCard employeeCard = ViewBag.EmployeeCard;
+}
+
+<!-- start page title -->
+<div class="row">
+	<div class="col-12">
+		<div class="page-title-box d-flex align-items-center justify-content-between">
+			<h4 class="mb-0">Profile</h4>
+
+			<div class="page-title-right">
+				<ol class="breadcrumb m-0">
+					<li class="breadcrumb-item"><a href="javascript: void(0);">ESS</a></li>
+					<li class="breadcrumb-item active">Profile</li>
+				</ol>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- end page title -->
+
+<div class="row mb-4">
+	<div class="col-xl-4">
+		<div class="card h-100">
+			<div class="card-body">
+				<div class="text-center">
+					<div>
+						<img src="assets/images/users/default-user.jpg" alt="" class="avatar-lg rounded-circle img-thumbnail">
+					</div>
+					<h5 class="mt-3 mb-1">@employeeCard.First_Name</h5>
+					<p class="text-muted">@employeeCard.Job_Title</p>
+				</div>
+
+				<hr class="my-4">
+
+				<div class="text-muted">
+					
+					<div class="table-responsive mt-4">
+						<div>
+							<p class="mb-1">Name :</p>
+							<h5 class="font-size-16">@employeeCard.First_Name @employeeCard.Middle_Name @employeeCard.Last_Name</h5>
+						</div>
+						<div class="mt-4">
+							<p class="mb-1">Staff No. :</p>
+							<h5 class="font-size-16">@employeeCard.No</h5>
+						</div>
+						<div class="mt-4">
+							<p class="mb-1">Department :</p>
+							<h5 class="font-size-16">@employeeCard.Global_Dimension_1_Code</h5>
+						</div>
+						<div class="mt-4">
+							<p class="mb-1">Employment Type :</p>
+							<h5 class="font-size-16">@employeeCard.Employment_Type</h5>
+						</div>
+						<div class="mt-4">
+							<p class="mb-1">Job Position :</p>
+							<h5 class="font-size-16">@employeeCard.Job_Position</h5>
+						</div>
+
+						<div class="mt-4">
+							<p class="mb-1">Job Title :</p>
+							<h5 class="font-size-16">@employeeCard.Job_Title</h5>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xl-8">
+		<div class="card mb-0">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-bs-toggle="tab" href="#personal" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Personal Details</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="tab" href="#address" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Address & Contact</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="tab" href="#employment" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Employment Information</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="tab" href="#acting" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Acting Position</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="tab" href="#important" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Important Dates</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="tab" href="#separation" role="tab">
+						<i class="uil uil-check font-size-20"></i>
+						<span class="d-none d-sm-block">Separation</span>
+					</a>
+				</li>
+			</ul>
+			<!-- Tab content -->
+			<div class="tab-content p-4">
+				<div class="tab-pane active" id="personal" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Gender</td>
+									<td><b>@employeeCard.Gender</b></td>
+									<td>ID No</td>
+									<td><b>@employeeCard.ID_No</b></td>
+								</tr>
+								<tr>
+									<td>Disabled</td>
+									<td><b>@employeeCard.Disabled</b></td>
+									<td>Marital Status</td>
+									<td><b>@employeeCard.Marital_Status</b></td>
+								</tr>
+								<tr>
+									<td>Date of Birth</td>
+									<td><b>@employeeCard.Date_of_Birth.ToString()</b></td>
+									<td>Ethnic Community</td>
+									<td><b>@employeeCard.Ethnic_Name</b></td>
+								</tr>
+								<tr>
+									<td>Age</td>
+									<td><b>@employeeCard.Date_of_Birth_Age</b></td>
+									<td>Home District</td>
+									<td><b>@employeeCard.Home_District</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane" id="address" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Address</td>
+									<td><b>@employeeCard.Address</b></td>
+									<td>Private Phone No.</td>
+									<td><b>@employeeCard.Phone_No_2</b></td>
+								</tr>
+								<tr>
+									<td>Address 2</td>
+									<td><b>@employeeCard.Address_2</b></td>
+									<td>Pager</td>
+									<td><b>@employeeCard.Pager</b></td>
+								</tr>
+								<tr>
+									<td>City</td>
+									<td><b>@employeeCard.City</b></td>
+									<td>Extension</td>
+									<td><b>@employeeCard.Extension</b></td>
+								</tr>
+								<tr>
+									<td>Post Code</td>
+									<td><b>@employeeCard.Post_Code</b></td>
+									<td>Direct Phone No.</td>
+									<td><b>@employeeCard.Mobile_Phone_No</b></td>
+								</tr>
+								<tr>
+									<td>Country</td>
+									<td><b>@employeeCard.Country_Region_Code</b></td>
+									<td>Email</td>
+									<td><b>@employeeCard.E_Mail</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane" id="employment" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Job Position</td>
+									<td><b>@employeeCard.Job_Position</b></td>
+									<td>Badge No.</td>
+									<td><b>@employeeCard.Budge_Number</b></td>
+								</tr>
+								<tr>
+									<td>Job Title</td>
+									<td><b>@employeeCard.Job_Title</b></td>
+									<td>Biometric User ID</td>
+									<td><b>@employeeCard.Biometric_User_ID</b></td>
+								</tr>
+								<tr>
+									<td>Employment Type</td>
+									<td><b>@employeeCard.Employment_Type</b></td>
+									<td></td>
+									<td><b></b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane" id="acting" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Acting No.</td>
+									<td><b>@employeeCard.Acting_No</b></td>
+									<td>IReleived Name</td>
+									<td><b>@employeeCard.Relieved_Name</b></td>
+								</tr>
+								<tr>
+									<td>Acting Position</td>
+									<td></b></td>
+									<td>Start Date</td>
+									<td><b></b></td>
+								</tr>
+								<tr>
+									<td>Acting Description</td>
+									<td><b>@employeeCard.Acting_Description</b></td>
+									<td>End Date</td>
+									<td><b></b></td>
+								</tr>
+								<tr>
+									<td>Relieved Employee</td>
+									<td><b>@employeeCard.Relieved_Employee</b></td>
+									<td>Reason for Acting</td>
+									<td><b>@employeeCard.Reason_for_Acting</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane" id="important" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Date of Join</td>
+									<td><b>@employeeCard.Date_Of_Join.ToString()</b></td>
+									<td>Medical Scheme Join</td>
+									<td><b>@employeeCard.Medical_Scheme_Join</b></td>
+								</tr>
+								<tr>
+									<td>Probation End Date</td>
+									<td><b>@employeeCard.End_Of_Probation_Date.ToString()</b></td>
+									<td>Retirement Date</td>
+									<td><b>@employeeCard.Retirement_Date</b></td>
+								</tr>
+								<tr>
+									<td>Pension Scheme Join</td>
+									<td><b>@employeeCard.Pension_Scheme_Join.ToString()</b></td>
+									<td>Employment Date</td>
+									<td><b>@employeeCard.Employment_Date</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane" id="separation" role="tabpanel">
+					<div class="table-responsive mt-4">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Notice Period</td>
+									<td><b>@employeeCard.Notice_Period</b></td>
+									<td>Status</td>
+									<td><b>@employeeCard.Status</b></td>
+								</tr>
+								<tr>
+									<td>Send Alert To</td>
+									<td><b>@employeeCard.Send_Alert_to</b></td>
+									<td>Exit Interview Date</td>
+									<td><b>@employeeCard.Exit_Interview_Date</b></td>
+								</tr>
+								<tr>
+									<td>Served Notice Period</td>
+									<td><b>@employeeCard.Served_Notice_Period</b></td>
+									<td>Exit Interview Done By</td>
+									<td><b>@employeeCard.Exit_Interview_Done_by</b></td>
+								</tr>
+								<tr>
+									<td>Date of Leaving</td>
+									<td><b>@employeeCard.Date_Of_Leaving</b></td>
+									<td>Allow Re-employment in Future</td>
+									<td><b>@employeeCard.Allow_Re_Employment_In_Future</b></td>
+								</tr>
+								<tr>
+									<td>Ground for Term Code</td>
+									<td><b>@employeeCard.Grounds_for_Term_Code</b></td>
+									<td></td>
+									<td><b></b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end row -->

@@ -1,0 +1,85 @@
+﻿@section AppStyles {
+	<!-- Bootstrap Css -->
+	<link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+	<!-- App Css-->
+	<link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+}
+<!-- Left Menu Start -->
+<div id="sidebar-menu">
+	<ul class="metismenu list-unstyled" id="side-menu">
+
+		<li class="menu-title">ESS PORTAL</li>
+
+		<li>
+			<a asp-area="" asp-controller="Home" asp-action="Index" class="waves-effect">
+				<i class="uil-user"></i>
+				<span>Employee Profile</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="javascript: void(0);" class="has-arrow waves-effect">
+				<i class="uil-file-alt"></i>
+				<span>Leave</span>
+			</a>
+			<ul class="sub-menu" aria-expanded="false">
+				<li><a asp-area="" asp-controller="Leave" asp-action="Index">Leave Application</a></li>
+				<!--<li><a asp-area="" asp-controller="Leave" asp-action="Planner">Leave Planner</a></li>-->
+			</ul>
+		</li>
+
+		<li>
+			<a href="javascript: void(0);" class="has-arrow waves-effect">
+				<i class="uil-files-landscapes-alt"></i>
+				<span>HR Reports</span>
+			</a>
+			<ul class="sub-menu" aria-expanded="false">
+				<li><a asp-area="" asp-controller="Reports" asp-action="Index">Pay slip </a></li>
+				<li><a asp-area="" asp-controller="Reports" asp-action="P9Form">P9 form</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a asp-area="" asp-controller="Appraisal" asp-action="Index" class="waves-effect">
+				<i class="uil-temperature-plus"></i>
+				<span>Self Appraisal</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="javascript: void(0);" class="has-arrow waves-effect">
+				<i class="uil-ticket"></i>
+				<span>Approvals</span>
+			</a>
+			<ul class="sub-menu" aria-expanded="false">
+				<li><a asp-area="" asp-controller="Approvals" asp-action="Index">Leave</a></li>
+				<li><a asp-area="" asp-controller="Approvals" asp-action="Appraisal">Appraisal</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a asp-area="" asp-controller="NoticeBoard" asp-action="Index" class="waves-effect">
+				<i class="uil-rss-interface"></i>
+				<span>Notice Board</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="~/Identity/Account/Logout" class="waves-effect">
+				<i class="uil-sign-out-alt"></i>
+				<span>Sign out</span>
+			</a>
+		</li>
+
+	</ul>
+</div>
+
+@section AppScripts {
+	<!-- Varying Modal Content js -->
+	<script src="~/assets/js/pages/modal.init.js"></script>
+
+	<!-- App js -->
+	<script src="~/assets/js/app.js"></script>
+}

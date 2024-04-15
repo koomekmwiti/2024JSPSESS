@@ -1,0 +1,134 @@
+﻿@using ESS.ViewModels
+
+@model SelectLeaveTypeVM;
+
+@{
+    DeftOData.DEFT_EmployeeCard employeeCard = ViewBag.EmployeeCard;
+    IEnumerable<DeftOData.DEFT_LeaveTypes> LeaveTypes = ViewBag.LeaveTypes;
+
+    string gender = employeeCard.Gender;
+
+    bool showItem = true;
+}
+
+@{
+    ViewData["Title"] = "Leave Type";
+}
+
+@section AppStyles {
+    <!-- Bootstrap Css -->
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <!--Start of Page Title-->
+            <h4 class="mb-0">@ViewData["Title"]</h4>
+            <!--End of Page Title-->
+            <!--Start of Breadcrumb-->
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+                    <li class="breadcrumb-item">Leave</li>
+                    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                </ol>
+            </div>
+            <!--End of Breadcrumb-->
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <h5 style="display:inline">Select Leave Type </h5>
+                    <a asp-action="Index"> <i class="fa fa-list float-end" title="List" style="font-size: 23px;"></i></a>
+                </div>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["Message"]
+                    </div>
+                }
+
+                <div class="mt-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                </div>
+
+                <div class="row g-0 p-2">
+                    <div class="col-md-8">
+                        <form asp-action="EditLeave" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="Id" />
+                            <div class="row">
+
+                                <div class="col-md-12 form-group mb-2">
+                                    <label asp-for="LeaveType" class="control-label"></label>
+                                    <select class="form-control" asp-for="LeaveType">
+                                        @foreach (DeftOData.DEFT_LeaveTypes leaveType in LeaveTypes)
+                                        {
+                                            {
+                                                showItem = true;
+
+                                                if (!leaveType.Gender.Equals(" "))
+                                                {
+                                                    if (!gender.Equals(leaveType.Gender))
+                                                    {
+                                                        showItem = false;
+                                                    }
+                                                }
+                                            }
+
+                                            if (showItem)
+                                            {
+                                                <option value="@leaveType.Code">@leaveType.Description</option>
+                                            }
+                                        }
+                                    </select>
+                                    <span asp-validation-for="LeaveType" class="text-danger"></span>
+                                </div>
+
+                                <div class="offset-md-10 col-md-2 form-group mb-2">
+                                    <button class="btn btn-secondary form-control">Next</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section AppScripts {
+
+    <!-- JAVASCRIPT -->
+    <script src="~/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- form repeater js -->
+    <script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+    <script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/app.js"></script>
+
+}
+

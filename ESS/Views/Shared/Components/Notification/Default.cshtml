@@ -1,0 +1,66 @@
+﻿@{
+    //@model IQueryable<GLNotification>
+}
+
+
+<div class="dropdown d-inline-block">
+    <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="uil-bell"></i>
+        <span class="badge bg-danger rounded-pill">@{
+                //@Model.Count()
+            }</span>
+    </button>
+    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+         aria-labelledby="page-header-notifications-dropdown">
+        <div class="p-3">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h5 class="m-0 font-size-16"> Notifications </h5>
+                </div>
+                <div class="col-auto">
+                    <a href="#!" class="small"> Mark all as read</a>
+                </div>
+            </div>
+        </div>
+        <div data-simplebar style="max-height: 230px;">
+            @{
+                /*
+                 *
+                * @foreach (GLNotification item in Model)
+                {
+                <!--Start of Nofication-->
+                <a href="javascript:void(0);" class="text-reset notification-item">
+                <div class="d-flex align-items-start">
+                <div class="flex-shrink-0 me-3">
+                <div class="avatar-xs">
+                <span class="avatar-title bg-primary rounded-circle font-size-16">
+                <i class="uil-shopping-basket"></i>
+                </span>
+                </div>
+                </div>
+                <div class="flex-grow-1">
+                <h6 class="mb-1">@item.Title</h6>
+                <div class="font-size-12 text-muted">
+                <p class="mb-1">@item.Description</p>
+                <p class="mb-0"><i class="mdi mdi-clock-outline"></i> @item.DateCreated</p>
+                </div>
+                </div>
+                </div>
+                </a>
+                <!--End of Notification-->
+                }
+                 * 
+                 */
+            }
+            
+        </div>
+        <div class="p-2 border-top">
+            <div class="d-grid">
+                <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                    <i class="uil-arrow-circle-right me-1"></i> View More..
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

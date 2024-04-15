@@ -1,0 +1,72 @@
+﻿@page
+@using ESS.Areas.Identity.Pages.Account
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="row align-items-center justify-content-center">
+    <div class="col-md-8 col-lg-6 col-xl-5">
+        <div class="card">
+
+            <div class="card-body p-4">
+                <div class="text-center mt-2">
+                    <h5 class="text-primary">Welcome Back !</h5>
+                    <p class="text-muted">Sign in to continue to ESS Portal.</p>
+                </div>
+                <div class="p-2 mt-4">
+
+                    <section>
+                        <form id="account" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-floating mb-3">
+                                <input asp-for="Input.Username" class="form-control" autocomplete="username" aria-required="true" />
+                                <label asp-for="Input.Username" class="form-label"></label>
+                                <span asp-validation-for="Input.Username" class="text-danger"></span>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                                <label asp-for="Input.Password" class="form-label"></label>
+                                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+                            <div>
+                                <div class="checkbox">
+                                    <label asp-for="Input.RememberMe" class="form-label">
+                                        <input class="form-check-input" asp-for="Input.RememberMe" />
+                                        @Html.DisplayNameFor(m => m.Input.RememberMe)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-secondary">Log in</button>
+                            </div>
+                            <div>
+                                <p>
+                                    <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                                </p>
+                                <p>
+                                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                                </p>
+                                <p>
+                                    <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                                </p>
+                            </div>
+                        </form>
+                    </section>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mt-5 text-center">
+            <p>© <script>document.write(new Date().getFullYear())</script> DEFT TECHNOLOGIES</p>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
