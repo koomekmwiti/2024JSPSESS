@@ -11974,19 +11974,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HomePC\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\ESS\\ESS\\ESS\\ESS.csproj",
+      "projectUniqueName": "D:\\SimplaTec\\2024JSPSESS\\ESS\\ESS.csproj",
       "projectName": "ESS",
-      "projectPath": "D:\\Code\\ESS\\ESS\\ESS\\ESS.csproj",
-      "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\ESS\\ESS\\ESS\\obj\\",
+      "projectPath": "D:\\SimplaTec\\2024JSPSESS\\ESS\\ESS.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\SimplaTec\\2024JSPSESS\\ESS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12153,7 +12153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,26 +2,24 @@
 using ESS.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics.Metrics;
-using System.Net;
 using System.ServiceModel;
 
 namespace ESS.Controllers
 {
-	[Authorize]
-	public class ReportsController : Controller
+    [Authorize]
+    public class ReportsController : Controller
     {
 
-		private readonly ILogger<ReportsController> _logger;
-		private readonly IConfiguration _configuration;
-		private readonly ApplicationDBContext _dbContext;
+        private readonly ILogger<ReportsController> _logger;
+        private readonly IConfiguration _configuration;
+        private readonly ApplicationDBContext _dbContext;
 
         public ReportsController(IConfiguration configuration, ApplicationDBContext dBContext, ILogger<ReportsController> logger)
         {
-			_configuration = configuration;
-			_dbContext = dBContext;
-			_logger = logger;
-		}
+            _configuration = configuration;
+            _dbContext = dBContext;
+            _logger = logger;
+        }
         public IActionResult Index()
         {
 
@@ -63,6 +61,18 @@ namespace ESS.Controllers
             return View();
         }
 
+        public IActionResult ViewPayslip(string filePath)
+        {
+            if (!System.IO.File.Exists(filePath))
+            {
+                return NotFound("File not found.");
+            }
+
+            byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
+            return File(fileBytes, "application/pdf", Path.GetFileName(filePath));
+        }
+
+
         public IActionResult DownloadPayslip(string Period)
         {
             string EmpCode = User.Identity.Name;
@@ -70,7 +80,8 @@ namespace ESS.Controllers
             DateTime dt1 = DateTime.Parse(Period);
 
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             EndpointAddress endpoint = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Codeunit/DEFT_OnlinePortalServices");
@@ -86,27 +97,27 @@ namespace ESS.Controllers
                 oSP_PortClient.ClientCredentials.Windows.ClientCredential = DeftFunctions.getNetworkCredential(_configuration);
             }
 
+            //var path = _configuration["Defaults:SharedFolder"];
             string fileName = oSP_PortClient.PrintPaySlip(EmpCode, _configuration["Defaults:SharedFolder"], dt1);
-            string filePath = _configuration["Defaults:SharedFolder"] + fileName;
+            string filePath = _configuration["Defaults:LinkSharedFolder"] + fileName;
 
-            object TempFile = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + fileName;
-            string tempPath = TempFile.ToString() ?? "";
+            ViewBag.filePath = filePath;
 
+            //return RedirectToAction("ViewPayslip");
+            //return RedirectToAction("ViewPayslip", new { filePath = filePath });
+            return View("ViewPayslip", model:filePath);
+
+        }
+
+        public IActionResult ViewP9Form(string filePath)
+        {
             if (!System.IO.File.Exists(filePath))
             {
-                return NotFound();
+                return NotFound("File not found.");
             }
 
-            System.IO.File.Move(filePath, tempPath);
-
-            var fileInfo = new FileInfo(tempPath);
-            Response.ContentType = "application/pdf";
-
-            Response.Headers.Add("Content-Disposition", "attachement;filename=\"" + fileInfo.Name + "\"");
-            Response.Headers.Add("Content-Length", fileInfo.Length.ToString());
-
-            //return File(System.IO.File.ReadAllBytes(tempPath), "application/pdf", fileInfo.Name);
-            return File(System.IO.File.ReadAllBytes(tempPath), "application/pdf", "Pay slip.pdf");
+            byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
+            return File(fileBytes, "application/pdf", Path.GetFileName(filePath));
         }
 
         public IActionResult DownloadP9Form(string period)
@@ -118,7 +129,8 @@ namespace ESS.Controllers
             var lastDayOfMonth = new DateTime(dt2.Year, dt2.Month, DateTime.DaysInMonth(dt2.Year, dt2.Month));
 
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             EndpointAddress endpoint = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Codeunit/DEFT_OnlinePortalServices");
@@ -135,26 +147,11 @@ namespace ESS.Controllers
             }
 
             string fileName = oSP_PortClient.PrintP9(EmpCode, _configuration["Defaults:SharedFolder"], dt1, dt2);
-            string filePath = _configuration["Defaults:SharedFolder"] + fileName;
+            string filePath = _configuration["Defaults:LinkSharedFolder"] + fileName;
 
-            object TempFile = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + fileName;
-            string tempPath = TempFile.ToString() ?? "";
+            return View("ViewPayslip", model: filePath);
 
-            if (!System.IO.File.Exists(filePath))
-            {
-                return NotFound();
-            }
 
-            System.IO.File.Move(filePath, tempPath);
-
-            var fileInfo = new FileInfo(tempPath);
-            Response.ContentType = "application/pdf";
-
-            Response.Headers.Add("Content-Disposition", "attachement;filename=\"" + fileInfo.Name + "\"");
-            Response.Headers.Add("Content-Length", fileInfo.Length.ToString());
-
-            //return File(System.IO.File.ReadAllBytes(tempPath), "application/pdf", fileInfo.Name);
-            return File(System.IO.File.ReadAllBytes(tempPath), "application/pdf", "P9 Form.pdf");
         }
 
     }
