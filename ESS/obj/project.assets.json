@@ -11974,19 +11974,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HomePC\\.nuget\\packages\\": {}
+    "C:\\Users\\jakea\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\ESS\\ESS\\ESS\\ESS.csproj",
+      "projectUniqueName": "C:\\Users\\jakea\\source\\repos\\2024JSPSESS\\ESS\\ESS.csproj",
       "projectName": "ESS",
-      "projectPath": "D:\\Code\\ESS\\ESS\\ESS\\ESS.csproj",
-      "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\ESS\\ESS\\ESS\\obj\\",
+      "projectPath": "C:\\Users\\jakea\\source\\repos\\2024JSPSESS\\ESS\\ESS.csproj",
+      "packagesPath": "C:\\Users\\jakea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jakea\\source\\repos\\2024JSPSESS\\ESS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jakea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11994,6 +11999,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12153,7 +12159,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
