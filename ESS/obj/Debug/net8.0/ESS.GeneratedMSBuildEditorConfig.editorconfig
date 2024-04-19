@@ -17,339 +17,347 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ESS
 build_property.RootNamespace = ESS
-build_property.ProjectDir = D:\Projects\Deft Technologies\2024JSPSESS\ESS\
+build_property.ProjectDir = D:\SimplaTec\2024JSPSESS\ESS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects\Deft Technologies\2024JSPSESS\ESS
+build_property.MSBuildProjectDirectory = D:\SimplaTec\2024JSPSESS\ESS
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Lockout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_blank.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_blank.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfYmxhbmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/Error.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/_Layout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/_LoginPartial.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0xvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Appraisal/AddAppraisal.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/AddAppraisal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEFkZEFwcHJhaXNhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Appraisal/AppraisalQuestions.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/AppraisalQuestions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEFwcHJhaXNhbFF1ZXN0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Appraisal/Details.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Appraisal/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Appraisal/PopulateAppraisalGoals.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/PopulateAppraisalGoals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXFBvcHVsYXRlQXBwcmFpc2FsR29hbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/Appraisal.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Approvals/Appraisal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXEFwcHJhaXNhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Approvals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/ViewDocument.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Approvals/ViewDocument.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXFZpZXdEb2N1bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Home/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/ApplyLeave.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/ApplyLeave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcQXBwbHlMZWF2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/DetailsLeave.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/DetailsLeave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRGV0YWlsc0xlYXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/EditApplication.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/EditApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRWRpdEFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/EditLeave.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/EditLeave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRWRpdExlYXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/Planner.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/Planner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcUGxhbm5lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/SelectLeaveType.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/SelectLeaveType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcU2VsZWN0TGVhdmVUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Leave/ViewApprover.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Leave/ViewApprover.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcVmlld0FwcHJvdmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/NoticeBoard/Details.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/NoticeBoard/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQm9hcmRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/NoticeBoard/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/NoticeBoard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Reports/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Reports/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Reports/P9Form.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Reports/P9Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xQOUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/Components/AdminMenu/Default.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Reports/ViewP9Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xWaWV3UDlGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Reports/ViewPayslip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xWaWV3UGF5c2xpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/Components/AdminMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5NZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/Components/Notification/Default.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/Components/Notification/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2F0aW9uXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/Components/SatffMenu/Default.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/Components/SatffMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2F0ZmZNZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/Components/User/Default.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/Components/User/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/Error.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Error_Layout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Error_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvcl9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_LoginPartial.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Users/Index.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/_ViewImports.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/_ViewStart.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Footer.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-epbzke3gz2
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Layout.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5g1qyd8qfj
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Left_Sidebar.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Left_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MZWZ0X1NpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-17vy677ou5
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Main_Menu.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Main_Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluX01lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zc7nkjz1sm
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Page_Topbar.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Page_Topbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlX1RvcGJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-0aou5e9ajt
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Right_Sidebar.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Right_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SaWdodF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-d9b621p4pz
 
-[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Shared/_Settings.cshtml]
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Shared/_Settings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXR0aW5ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-0lx5iu9yti
