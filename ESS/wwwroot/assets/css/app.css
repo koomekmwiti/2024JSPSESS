@@ -399,7 +399,7 @@ body[data-layout=horizontal] .footer {
 .metismenu .mm-collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+  overflow: visible;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
   -webkit-transition-duration: 0.35s;
@@ -428,7 +428,7 @@ body[data-layout=horizontal] .footer {
 
 .main-content {
   margin-right: 250px;
-  overflow: hidden;
+  overflow: visible;
 }
 .main-content .content {
   padding: 0 15px 10px 15px;
@@ -1257,7 +1257,7 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   position: relative;
   cursor: pointer;
   display: inline-block;
-  overflow: hidden;
+  overflow: visible;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2147,7 +2147,7 @@ body {
 }
 
 .simplebar-wrapper {
-  overflow: hidden;
+  overflow: visible;
   width: inherit;
   height: inherit;
   max-width: inherit;
@@ -2157,7 +2157,7 @@ body {
 .simplebar-mask {
   direction: inherit;
   position: absolute;
-  overflow: hidden;
+  overflow: visible;
   padding: 0;
   margin: 0;
   right: 0;
@@ -2231,7 +2231,7 @@ body {
   position: relative;
   float: right;
   max-height: 1px;
-  overflow: hidden;
+  overflow: visible;
   z-index: -1;
   padding: 0;
   margin: 0;
@@ -2257,7 +2257,7 @@ body {
   width: 1000%;
   min-height: 1px;
   min-width: 1px;
-  overflow: hidden;
+  overflow: visible;
   pointer-events: none;
   z-index: -1;
 }
@@ -2268,7 +2268,7 @@ body {
   left: 0;
   bottom: 0;
   pointer-events: none;
-  overflow: hidden;
+  overflow: visible;
 }
 
 [data-simplebar].simplebar-dragging .simplebar-content {
@@ -2360,7 +2360,7 @@ body {
 .simplebar-hide-scrollbar {
   position: fixed;
   right: 0;
-  visibility: hidden;
+  visibility: visible;
   overflow-y: scroll;
   scrollbar-width: none;
 }
@@ -2620,7 +2620,7 @@ body {
 
 .hidden {
   display: none !important;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .br-theme-bars-1to10 .br-widget .br-current-rating {
@@ -2889,7 +2889,7 @@ body {
 }
 
 .select2-result-repository__meta {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .img-flag {

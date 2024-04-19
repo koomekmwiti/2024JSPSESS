@@ -5,6 +5,54 @@
       "PackagePath": "staticwebassets\\ESS.bundle.scp.css"
     },
     {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Content\\plugins\\steps\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\Content\\plugins\\steps\\jquery.steps.css"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\Scripts\\plugins\\steps\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\plugins\\steps\\jquery.steps.min.js"
+    },
+    {
       "Id": "D:\\SimplaTec\\2024JSPSESS\\ESS\\wwwroot\\assets\\css\\app-rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\app-rtl.min.css"
     },

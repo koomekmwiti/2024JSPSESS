@@ -64,7 +64,7 @@
 
                                 <div class="col-md-12 form-group mb-2">
                                     <label asp-for="Appraisal_Period" class="control-label"></label>
-                                    <select class="form-control" asp-for="Appraisal_Period">
+                                    <select class="form-control" asp-for="Appraisal_Period" disabled>
                                         @foreach (DeftOData.DEFT_AppraisalPeriods appraisalPeriod in AppraisalPeriodsQuery)
                                         {
                                             <option value="@appraisalPeriod.Period">@appraisalPeriod.Period | @appraisalPeriod.Description</option>
@@ -75,13 +75,19 @@
 
 
                                 <div class="col-md-12 form-group mb-2">
-                                    <label asp-for="AppraisalType" class="control-label"></label>
-                                    <select class="form-control" asp-for="AppraisalType">
+                                    <label asp-for="Appraisal_Subject" class="control-label"></label>
+                                    <select class="form-control" asp-for="Appraisal_Subject">
                                         <option value="_blank_"></option>
-                                        <option value="Mid_Year">Mid Year</option>
-                                        <option value="Final_Year">Final Year</option>
+                                        <option value="CRE">CHRISTIAN RELIGIOUS EDICATION</option>
+                                        <option value="ENG">ENGLISH</option>
+                                        <option value="A/M">ART/MUSIC</option>
+                                        <option value="FR">French</option>
+                                        <option value="KISW">KISWAHILI</option>
+                                        <option value="MATHS">MATHEMATICS</option>
+                                        <option value="S/S">SOCIAL STUDIES</option>
+                                        <option value="SCI">SCIENCE</option>
                                     </select>
-                                    <span asp-validation-for="AppraisalType" class="text-danger"></span>
+                                    <span asp-validation-for="Appraisal_Subject" class="text-danger"></span>
                                 </div>
 
                                 <div class="offset-md-10 col-md-2 form-group mb-2">

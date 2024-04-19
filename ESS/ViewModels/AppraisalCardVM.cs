@@ -5,10 +5,13 @@ namespace ESS.ViewModels
     public class AppraisalCardVM
     {
         [Display(Name = "Appraisal Period")]
-        public string Appraisal_Period { get; set; }
+        public string? Appraisal_Period { get; set; }
 
         [Display(Name = "Appraisal Type")]
-        public string AppraisalType { get; set; }
+        public string? AppraisalType { get; set; }
+
+        [Display(Name = "Appraisal Subject")]
+        public string? Appraisal_Subject { get; set; }
 
     }
 }
