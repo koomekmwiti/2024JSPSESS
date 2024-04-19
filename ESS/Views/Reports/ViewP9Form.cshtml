@@ -1,0 +1,14 @@
+﻿@{
+    var fileUrl = Model;
+}
+
+<div class="row mt-3">
+    <iframe src="@fileUrl" height="700" style="width:100%;"></iframe>
+
+    @* <a href="@fileUrl" target="_blank" class="btn btn-primary">Download Payslip</a> *@
+    <a href="@Html.Raw(fileUrl)" target="_blank" class="btn btn-primary">Download Payslip</a>
+
+</div>
+
+
+
