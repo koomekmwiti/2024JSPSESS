@@ -8,7 +8,7 @@ namespace ESS.Helpers
     public static class DeftFunctions
     {
 
-        public static DeftLoginMode deftLoginMode = DeftLoginMode.WINDOWS;
+        public static DeftLoginMode deftLoginMode = DeftLoginMode.BASIC;
 
         public static NetworkCredential getNetworkCredential(IConfiguration _configuration)
         {

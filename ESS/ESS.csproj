@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -267,6 +267,7 @@
 	  <None Include="wwwroot\assets\libs\toastr\node_modules\jquery\jquery.min.js" />
 	  <None Include="wwwroot\assets\libs\toastr\node_modules\jquery\jquery.slim.min.js" />
 	  <None Include="wwwroot\assets\printjs\print.min.js" />
+	  <None Include="wwwroot\Scripts\plugins\jquery-ui\jquery-ui.min.js" />
 	</ItemGroup>
 
 </Project>

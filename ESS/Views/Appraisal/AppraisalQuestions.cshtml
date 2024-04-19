@@ -1,0 +1,147 @@
+﻿@model List<ApprovalGoalsServiceReference.AppraisalGoalsEntries>
+@{
+	DeftOData.DEFT_AppraisalCard appraisalCard = ViewBag.AppraisalCard;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Appraisal Goals";
+}
+
+@section AppStyles {
+	<!-- Bootstrap Css -->
+	<link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+	<!-- App Css-->
+	<link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+	<!-- Add jQuery Style direct - used for jQGrid plugin -->
+	<link href="~/Scripts/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/Content/plugins/steps/jquery.steps.css" />
+}
+
+<!-- start page title -->
+<div class="row">
+	<div class="col-12">
+		<div class="page-title-box d-flex align-items-center justify-content-between">
+			<!--Start of Page Title-->
+			<h4 class="mb-0">@ViewData["Title"]</h4>
+			<!--End of Page Title-->
+			<!--Start of Breadcrumb-->
+			<div class="page-title-right">
+				<ol class="breadcrumb m-0">
+					<li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+					<li class="breadcrumb-item">Leave</li>
+					<li class="breadcrumb-item active">@ViewData["Title"]</li>
+				</ol>
+			</div>
+			<!--End of Breadcrumb-->
+		</div>
+	</div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+	<div class="row">
+		<div class="col-lg-12 col-xl-12">
+			<div class="card">
+				<div class="card-body">
+					<div>
+						<h5 style="display:inline">@ViewData["Title"]</h5>
+						<div style="display:inline" class="float-end">
+							<a asp-action="Index"> <i class="fa fa-list" title="List" style="font-size: 23px;"></i></a>
+						</div>
+					</div>
+					@if (TempData["Message"] != null)
+					{
+						<div class="alert alert-info alert-dismissible" role="alert">
+							<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							@TempData["Message"]
+						</div>
+					}
+					<form asp-action="SubmitAppraisalGoals" method="post">
+						<div class="form-group">
+							<label for="achievement">1. List your outstanding achievements for the period under review.</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="achievement" name="achievement" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="positiveCircumstances">2. State the circumstances that affected your performance positively for the period under review (circumstances may be related to Supervisor/organization/personal/external etc.)</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="positiveCircumstances" name="positiveCircumstances" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="negativeCircumstances">3. State the circumstances that affected your performance negatively for the period under review (circumstances may be related to Supervisor/organization/personal/external etc.)</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="negativeCircumstances" name="negativeCircumstances" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="appraiseeComments">4. Appraisee's Appraisal Comments On The Performance Appraisal</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="appraiseeComments" name="appraiseeComments" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="appraiserComments">5. Appraiser's Comments On The Performance Appraisal</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="appraiserComments" name="appraiserComments" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="developmentalAction">6. Developmental Action To Be Taken</label>
+							<div class="dynamic-fields">
+								<textarea class="form-control" id="developmentalAction" name="developmentalAction" rows="3"></textarea>
+								<button type="button" class="btn btn-secondary add-more">Add More</button>
+							</div>
+						</div>
+
+						<div class="offset-md-10 col-md-2 form-group mb-2">
+							<button class="btn btn-secondary form-control">Next</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+@section AppScripts {
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="~/Scripts/plugins/steps/jquery.steps.min.js"></script>
+	<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+	<script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script src="~/assets/libs/jquery/jquery.min.js"></script>
+	<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+	<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+	<script src="~/assets/libs/node-waves/waves.min.js"></script>
+	<script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+	<!-- form repeater js -->
+	<script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+	<script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+	<!-- App js -->
+	<script src="~/assets/js/app.js"></script>
+	<script>
+		$(document).ready(function () {
+			// Add functionality to dynamically add textarea fields
+			$('.add-more').click(function (e) {
+				e.preventDefault();
+				var currentDynamicFields = $(this).closest('.dynamic-fields');
+				var newTextarea = $('<textarea class="form-control" rows="3"></textarea>');
+				currentDynamicFields.append(newTextarea);
+				currentDynamicFields.append($(this)); // Move the button after the new textarea
+			});
+		});
+	</script>
+}
