@@ -202,12 +202,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEFkZEFwcHJhaXNhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/AppraisalQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEFwcHJhaXNhbFF1ZXN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SimplaTec/2024JSPSESS/ESS/Views/Appraisal/PopulateAppraisalGoals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcmFpc2FsXFBvcHVsYXRlQXBwcmFpc2FsR29hbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SimplaTec/2024JSPSESS/ESS/Views/Approvals/Appraisal.cshtml]

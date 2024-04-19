@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\SimplaTec\\2024JSPSESS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "ESS\\Controllers\\LeaveController.cs",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "ESS\\Controllers\\LeaveController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAADwv4QAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T07:44:54.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "ESS\\Controllers\\ReportsController.cs",
               "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ReportsController.cs",
               "RelativeToolTip": "ESS\\Controllers\\ReportsController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T07:17:05.032Z",
               "EditorCaption": ""
