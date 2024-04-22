@@ -1,4 +1,4 @@
-﻿
+﻿@* @model IEnumerable<ApprovalEntriesServiceReference.DEFT_ApprovalEntries> *@
 @{
 	IEnumerable<DeftOData.DEFT_ApprovalEntries> ApprovalEntries = ViewBag.LeaveQuery;
 }
@@ -35,7 +35,13 @@
 	<div class="col-xl-12">
 		<div class="card">
 			<div class="card-body">
-
+				@if (TempData["SuccessMessage"] != null)
+				{
+					<div class="alert alert-info alert-dismissible" role="alert">
+						<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+						@TempData["SuccessMessage"]
+					</div>
+				}
 				<div class="table-responsive">
 					<table class="table table-striped">
 						<thead>

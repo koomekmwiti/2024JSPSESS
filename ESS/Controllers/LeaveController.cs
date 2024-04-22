@@ -425,7 +425,10 @@ namespace ESS.Controllers
                 oPS_PortClient.ClientCredentials.Windows.ClientCredential = DeftFunctions.getNetworkCredential(_configuration);
             }
 
-            try
+			EndpointAddress endpointOPS1 = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Page/DEFT_EmployeeLeaveApplicationCard");
+			EmployeeLeaveApplicationCardServiceReference.DEFT_EmployeeLeaveApplicationCard oPS_PortClient1 = new EmployeeLeaveApplicationCardServiceReference.DEFT_EmployeeLeaveApplicationCard();
+
+			try
             {
                 var result = oPS_PortClient.CancelLeaveApprovalAsync(docNo);
 
@@ -847,5 +850,6 @@ namespace ESS.Controllers
             return View();
 
         }
+
     }
 }

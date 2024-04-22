@@ -366,3 +366,5 @@ D:\SimplaTec\2024JSPSESS\ESS\obj\Debug\net8.0\refint\ESS.dll
 D:\SimplaTec\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.pdb
 D:\SimplaTec\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.genruntimeconfig.cache
 D:\SimplaTec\2024JSPSESS\ESS\obj\Debug\net8.0\ref\ESS.dll
+D:\SimplaTec\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\ApprovalEntriesServiceReference\ConnectedService.json
+D:\SimplaTec\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\EmployeeLeaveApplicationCardServiceReference\ConnectedService.json

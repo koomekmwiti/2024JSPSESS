@@ -51,6 +51,14 @@
                         @TempData["Message"]
                     </div>
                 }
+              
+                @if (TempData["FailMessage"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["FailMessage"]
+                    </div>
+                }
 
                 <div class="row g-0 p-2">
                     <div class="col-md-8">
@@ -259,6 +267,12 @@
                     </div>
                     <form method="post">
                         <div class="row">
+                            <dt class="col-sm-4">
+                                Reject Reason
+                            </dt>
+                            <dd class="col-sm-8">
+                                <textarea type="text" name="rejectreason"> </textarea>
+                            </dd>
                             <div class=" col-md-2 form-group mb-2">
                                 <input type="hidden" name="docNo" value="@Model.Application_No" />
                                 <button type="submit" class="btn btn-primary form-control" asp-action="ApproveLeave">Approve</button>
