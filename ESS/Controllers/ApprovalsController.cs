@@ -577,7 +577,7 @@ namespace ESS.Controllers
 
 				await portClient.SendForFurtherReviewAsync(secondSupervisorComment.FirstOrDefault().appraisal_No);
 
-				TempData["Message"] = "Appraisal Sent for further review";
+				TempData["SuccessMessage"] = "Appraisal Sent for further review";
 
 				return RedirectToAction("Appraisal");
 			}
