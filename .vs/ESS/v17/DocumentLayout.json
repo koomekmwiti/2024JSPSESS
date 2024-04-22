@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\ESS\\ESS\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\controllers\\appraisalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\appraisalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\views\\approvals\\populateappraisalgoals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\approvals\\populateappraisalgoals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\views\\appraisal\\appraisalquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\appraisal\\appraisalquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\views\\approvals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\approvals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\views\\approvals\\appraisal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\approvals\\appraisal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\views\\appraisal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\appraisal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppraisalController.cs",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\AppraisalController.cs",
+              "RelativeDocumentMoniker": "ESS\\Controllers\\AppraisalController.cs",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\AppraisalController.cs",
+              "RelativeToolTip": "ESS\\Controllers\\AppraisalController.cs",
+              "ViewState": "AQIAAEsCAAAAAAAAAAAAwF4CAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:58:18.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApprovalsController.cs",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
+              "RelativeDocumentMoniker": "ESS\\Controllers\\ApprovalsController.cs",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
+              "RelativeToolTip": "ESS\\Controllers\\ApprovalsController.cs",
+              "ViewState": "AQIAALoBAAAAAAAAAAAAAMEBAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T08:57:18.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Details.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\Details.cshtml",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Details.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Approvals\\Details.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T10:33:37.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppraisalQuestions.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T22:37:24.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PopulateAppraisalGoals.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAFgAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T10:51:44.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appraisal.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Appraisal.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\Appraisal.cshtml",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Appraisal.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Approvals\\Appraisal.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T08:57:27.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\Index.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Appraisal\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\Index.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Appraisal\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T13:13:58.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1253,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
