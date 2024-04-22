@@ -222,8 +222,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXEFwcHJhaXNhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/AppraisalQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXEFwcHJhaXNhbFF1ZXN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/PopulateAppraisalGoals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxzXFBvcHVsYXRlQXBwcmFpc2FsR29hbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Deft Technologies/2024JSPSESS/ESS/Views/Approvals/ViewDocument.cshtml]

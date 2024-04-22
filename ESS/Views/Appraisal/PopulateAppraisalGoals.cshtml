@@ -3,6 +3,10 @@
 	DeftOData.DEFT_AppraisalCard appraisalCard = ViewBag.AppraisalCard;
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewData["Title"] = "Appraisal Goals";
+
+	var appNo = ViewBag.AppNo;
+
+	var empNo = ViewBag.EmpNo;
 }
 
 @section AppStyles {
@@ -75,17 +79,30 @@
 								{
 									<tbody>
 										<tr class="gradeX">
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Key" value="@item.Key" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].RatingSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Line_NoSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Self_RatingSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Maximum_ScoreSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Line_No" value="@item.Line_No" />
 											<td>@item.Line_No</td>
+											<input type="hidden" name="appraisalGoalsEntries.Index" value="@item.Line_No" />	
 											<td>@item.Objective_Code</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Objective_Code" value="@item.Objective_Code" />
 											<td>@item.Key_Responsibility</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Key_Responsibility" value="@item.Key_Responsibility" />
 											<td>@item.Initiative_code</td>
 											<td class="center">@item.Description</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Description" value="@item.Description" />
 											<td class="center">
-												<input type="text" name="SelfRating" value="@item.Self_Rating" />
+												<input type="text" name="appraisalGoalsEntries[@item.Line_No].Self_Rating" value="@item.Self_Rating" oninput="validateInput(this)" data-maxscore="@item.Maximum_Score" />
 											</td>
 											<td class="center">@item.Rating</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Rating" value="@item.Rating" />
 											<td class="center">@item.Maximum_Score</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Maximum_Score" value="@item.Maximum_Score" />
 											<td class="center">@item.Agreed_perfomance_targets</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Agreed_perfomance_targets" value="@item.Agreed_perfomance_targets" />
 										</tr>
 									</tbody>
 								}
@@ -104,9 +121,9 @@
 								</tfoot>
 							</table>
 						</div>
-						<div class="offset-md-10 col-md-2 form-group mb-2">@* 
-							<input type="hidden" name="appNo" value="@appraisalCard.Appraisal_No" />
-							<input type="hidden" name="empNo" value="@appraisalCard.Employee_No" /> *@
+						<div class="offset-md-10 col-md-2 form-group mb-2">
+							<input type="hidden" name="appNo" value="@appNo" />
+							<input type="hidden" name="empNo" value="@empNo" />							
 							<button class="btn btn-secondary form-control">Next</button>
 						</div>
 					</form>
@@ -138,4 +155,23 @@
 
 	<!-- App js -->
 	<script src="~/assets/js/app.js"></script>
+
+	<script>
+		function validateInput(input) {
+			// Get the maximum score from the data attribute
+			var maxScore = parseInt(input.getAttribute("data-maxscore"));
+
+			// Get the entered value and convert it to a number
+			var enteredValue = parseFloat(input.value);
+
+			// Check if the entered value is greater than the maximum score
+			if (enteredValue > maxScore) {
+				// If the entered value is greater, set the input value to the maximum score
+				input.value = maxScore;
+
+				// Show an alert
+				alert("The entered value exceeds the maximum score of " + maxScore);
+			}
+		}
+	</script>
 }

@@ -1,8 +1,10 @@
-﻿@model List<ApprovalGoalsServiceReference.AppraisalGoalsEntries>
+﻿@model List<ESS.ViewModels.SecondSupervisorComment>
 @{
 	DeftOData.DEFT_AppraisalCard appraisalCard = ViewBag.AppraisalCard;
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewData["Title"] = "Appraisal Goals";
+
+	var appNo = ViewBag.AppNo;
 }
 
 @section AppStyles {
@@ -54,52 +56,24 @@
 							@TempData["Message"]
 						</div>
 					}
-					<form asp-action="SubmitAppraisalGoals" method="post">
-						<div class="form-group">
-							<label for="achievement">1. List your outstanding achievements for the period under review.</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="achievement" name="achievement" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
+					<form asp-action="SubmitAppraisalQuestions" method="post">
+						@foreach (var item in Model)
+						{
+							<div class="form-group">
+								<label for="achievement">@item.Question</label>
+								<div class="dynamic-fields">
+									<input type="hidden" name="secondSupervisorComment.Index" value="@item.No" />
+									<textarea class="form-control" name="secondSupervisorComment[@item.No].comments_on_Performance" rows="3"></textarea>
+									<input type="hidden" name="secondSupervisorComment[@item.No].appraisal_No" value="@appNo" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].No" value="@item.No" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].Table" value="@item.Table" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].person" value="@item.person" />
+									<button type="button" class="btn btn-secondary add-more">Add More</button>
+								</div>
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="positiveCircumstances">2. State the circumstances that affected your performance positively for the period under review (circumstances may be related to Supervisor/organization/personal/external etc.)</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="positiveCircumstances" name="positiveCircumstances" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="negativeCircumstances">3. State the circumstances that affected your performance negatively for the period under review (circumstances may be related to Supervisor/organization/personal/external etc.)</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="negativeCircumstances" name="negativeCircumstances" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="appraiseeComments">4. Appraisee's Appraisal Comments On The Performance Appraisal</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="appraiseeComments" name="appraiseeComments" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="appraiserComments">5. Appraiser's Comments On The Performance Appraisal</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="appraiserComments" name="appraiserComments" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="developmentalAction">6. Developmental Action To Be Taken</label>
-							<div class="dynamic-fields">
-								<textarea class="form-control" id="developmentalAction" name="developmentalAction" rows="3"></textarea>
-								<button type="button" class="btn btn-secondary add-more">Add More</button>
-							</div>
-						</div>
-
+						}						
 						<div class="offset-md-10 col-md-2 form-group mb-2">
-							<button class="btn btn-secondary form-control">Next</button>
+							<button class="btn btn-secondary form-control">Send for Review</button>
 						</div>
 					</form>
 				</div>

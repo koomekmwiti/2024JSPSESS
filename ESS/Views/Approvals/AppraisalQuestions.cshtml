@@ -1,0 +1,121 @@
+﻿@model List<ESS.ViewModels.SecondSupervisorComment>
+@{
+	DeftOData.DEFT_AppraisalCard appraisalCard = ViewBag.AppraisalCard;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Appraisal Goals";
+
+	var appNo = ViewBag.AppNo;
+}
+
+@section AppStyles {
+	<!-- Bootstrap Css -->
+	<link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+	<!-- App Css-->
+	<link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+	<!-- Add jQuery Style direct - used for jQGrid plugin -->
+	<link href="~/Scripts/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/Content/plugins/steps/jquery.steps.css" />
+}
+
+<!-- start page title -->
+<div class="row">
+	<div class="col-12">
+		<div class="page-title-box d-flex align-items-center justify-content-between">
+			<!--Start of Page Title-->
+			<h4 class="mb-0">@ViewData["Title"]</h4>
+			<!--End of Page Title-->
+			<!--Start of Breadcrumb-->
+			<div class="page-title-right">
+				<ol class="breadcrumb m-0">
+					<li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+					<li class="breadcrumb-item">Leave</li>
+					<li class="breadcrumb-item active">@ViewData["Title"]</li>
+				</ol>
+			</div>
+			<!--End of Breadcrumb-->
+		</div>
+	</div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+	<div class="row">
+		<div class="col-lg-12 col-xl-12">
+			<div class="card">
+				<div class="card-body">
+					<div>
+						<h5 style="display:inline">@ViewData["Title"]</h5>
+						<div style="display:inline" class="float-end">
+							<a asp-action="Index"> <i class="fa fa-list" title="List" style="font-size: 23px;"></i></a>
+						</div>
+					</div>
+					@if (TempData["Message"] != null)
+					{
+						<div class="alert alert-info alert-dismissible" role="alert">
+							<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							@TempData["Message"]
+						</div>
+					}
+					<form asp-action="SubmitAppraisalQuestions" method="post">
+						@foreach (var item in Model)
+						{
+							<div class="form-group">
+								<label for="achievement">@item.Question</label>
+								<div class="dynamic-fields">
+									<input type="hidden" name="secondSupervisorComment.Index" value="@item.No" />
+									<textarea class="form-control" name="secondSupervisorComment[@item.No].comments_on_Performance" rows="3"></textarea>
+									<input type="hidden" name="secondSupervisorComment[@item.No].appraisal_No" value="@appNo" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].No" value="@item.No" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].Table" value="@item.Table" />
+									<input type="hidden" name="secondSupervisorComment[@item.No].person" value="@item.person" />
+									<button type="button" class="btn btn-secondary add-more">Add More</button>
+								</div>
+							</div>
+						}						
+						<div class="offset-md-10 col-md-2 form-group mb-2">
+							<button class="btn btn-secondary form-control">Send for Review</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+@section AppScripts {
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="~/Scripts/plugins/steps/jquery.steps.min.js"></script>
+	<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+	<script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script src="~/assets/libs/jquery/jquery.min.js"></script>
+	<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+	<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+	<script src="~/assets/libs/node-waves/waves.min.js"></script>
+	<script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+	<!-- form repeater js -->
+	<script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+	<script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+	<!-- App js -->
+	<script src="~/assets/js/app.js"></script>
+	<script>
+		$(document).ready(function () {
+			// Add functionality to dynamically add textarea fields
+			$('.add-more').click(function (e) {
+				e.preventDefault();
+				var currentDynamicFields = $(this).closest('.dynamic-fields');
+				var newTextarea = $('<textarea class="form-control" rows="3"></textarea>');
+				currentDynamicFields.append(newTextarea);
+				currentDynamicFields.append($(this)); // Move the button after the new textarea
+			});
+		});
+	</script>
+}

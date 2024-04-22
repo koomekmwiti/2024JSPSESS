@@ -1,0 +1,177 @@
+﻿@model List<ApprovalGoalsServiceReference.AppraisalGoalsEntries>
+@{
+	DeftOData.DEFT_AppraisalCard appraisalCard = ViewBag.AppraisalCard;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Appraisal Goals";
+
+	var appNo = ViewBag.AppNo;
+
+	var empNo = ViewBag.EmpNo;
+}
+
+@section AppStyles {
+	<!-- Bootstrap Css -->
+	<link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+	<!-- App Css-->
+	<link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+	<!-- Add jQuery Style direct - used for jQGrid plugin -->
+	<link href="~/Scripts/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/Content/plugins/steps/jquery.steps.css" />
+}
+
+<!-- start page title -->
+<div class="row">
+	<div class="col-12">
+		<div class="page-title-box d-flex align-items-center justify-content-between">
+			<!--Start of Page Title-->
+			<h4 class="mb-0">@ViewData["Title"]</h4>
+			<!--End of Page Title-->
+			<!--Start of Breadcrumb-->
+			<div class="page-title-right">
+				<ol class="breadcrumb m-0">
+					<li class="breadcrumb-item"><a href="javascript: void(0);"></a>ESS</li>
+					<li class="breadcrumb-item">Leave</li>
+					<li class="breadcrumb-item active">@ViewData["Title"]</li>
+				</ol>
+			</div>
+			<!--End of Breadcrumb-->
+		</div>
+	</div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+	<div class="row">
+		<div class="col-lg-12 col-xl-12">
+			<div class="card">
+				<div class="card-body">
+					<div>
+						<h5 style="display:inline">@ViewData["Title"]</h5>
+						<div style="display:inline" class="float-end">
+							<a asp-action="Index"> <i class="fa fa-list" title="List" style="font-size: 23px;"></i></a>
+						</div>
+					</div>
+					@if (TempData["Message"] != null)
+					{
+						<div class="alert alert-info alert-dismissible" role="alert">
+							<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							@TempData["Message"]
+						</div>
+					}
+					<form asp-action="SubmitAppraisalGoals" method="post">
+
+						<div style="overflow-x: auto;">
+							<table class="table table-striped table-bordered table-hover dataTables-example">
+								<thead>
+									<tr>
+										<th>Line No</th>
+										<th>Strategic objecive code</th>
+										<th>Strategic Objectives</th>
+										<th>Initiative code</th>
+										<th>Initiatives</th>
+										<th>Self-Rating</th>
+										<th>Supervisor Rating</th>
+										<th>Maximum Score</th>
+										<th>Agreed perfomance targets</th>
+									</tr>
+								</thead>
+								@foreach (var item in Model)
+								{
+									<tbody>
+										<tr class="gradeX">
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Key" value="@item.Key" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].RatingSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Line_NoSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Self_RatingSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Maximum_ScoreSpecified" value="true" />
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Line_No" value="@item.Line_No" />
+											<td>@item.Line_No</td>
+											<input type="hidden" name="appraisalGoalsEntries.Index" value="@item.Line_No" />
+											<td>@item.Objective_Code</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Objective_Code" value="@item.Objective_Code" />
+											<td>@item.Key_Responsibility</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Key_Responsibility" value="@item.Key_Responsibility" />
+											<td>@item.Initiative_code</td>
+											<td class="center">@item.Description</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Description" value="@item.Description" />
+											<td class="center">@item.Self_Rating</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Self_Rating" value="@item.Self_Rating" />
+											<td class="center">
+												<input type="text" name="appraisalGoalsEntries[@item.Line_No].Rating" oninput="validateInput(this)" data-maxscore="@item.Maximum_Score" value="@item.Rating" />
+											</td>
+											<td class="center">@item.Maximum_Score</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Maximum_Score" value="@item.Maximum_Score" />
+											<td class="center">@item.Agreed_perfomance_targets</td>
+											<input type="hidden" name="appraisalGoalsEntries[@item.Line_No].Agreed_perfomance_targets" value="@item.Agreed_perfomance_targets" />
+										</tr>
+									</tbody>
+								}
+								<tfoot>
+									<tr>
+										<th>Line No</th>
+										<th>Strategic objecive code</th>
+										<th>Strategic Objectives</th>
+										<th>Initiative code</th>
+										<th>Initiatives</th>
+										<th>Self-Rating</th>
+										<th>Supervisor Rating</th>
+										<th>Maximum Score</th>
+										<th>Agreed perfomance targets</th>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+						<div class="offset-md-10 col-md-2 form-group mb-2">
+							<input type="hidden" name="appNo" value="@appNo" />
+							<input type="hidden" name="empNo" value="@empNo" />
+							<button class="btn btn-secondary form-control">Next</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section AppScripts {
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="~/Scripts/plugins/steps/jquery.steps.min.js"></script>
+	<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+	<script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script src="~/assets/libs/jquery/jquery.min.js"></script>
+	<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+	<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+	<script src="~/assets/libs/node-waves/waves.min.js"></script>
+	<script src="~/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="~/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+	<!-- form repeater js -->
+	<script src="~/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+
+	<script src="~/assets/js/pages/form-repeater.int.js"></script>
+
+	<!-- App js -->
+	<script src="~/assets/js/app.js"></script>
+
+	<script>
+		function validateInput(input) {
+			// Get the maximum score from the data attribute
+			var maxScore = parseInt(input.getAttribute("data-maxscore"));
+
+			// Get the entered value and convert it to a number
+			var enteredValue = parseFloat(input.value);
+
+			// Check if the entered value is greater than the maximum score
+			if (enteredValue > maxScore) {
+				// If the entered value is greater, set the input value to the maximum score
+				input.value = maxScore;
+
+				// Show an alert
+				alert("The entered value exceeds the maximum score of " + maxScore);
+			}
+		}
+	</script>
+}

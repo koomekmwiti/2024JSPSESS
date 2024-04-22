@@ -275,7 +275,8 @@ namespace ESS.Controllers
         {
             string EmpCode = User.Identity.Name;
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             //EmployeeLeaveApplicationCard

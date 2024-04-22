@@ -366,3 +366,5 @@ D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\refint\ESS.dll
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.pdb
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.genruntimeconfig.cache
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ref\ESS.dll
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\AppraisalListServiceReference\ConnectedService.json
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DEFT_OnlinePortalServiceReference\ConnectedService.json
