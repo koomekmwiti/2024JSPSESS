@@ -5709,6 +5709,1466 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78ms-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78ms-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\78ms-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\78ms-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\83pv-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\83pv-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90ms-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90ms-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90ms-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90ms-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90msp-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90msp-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90msp-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90msp-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90pv-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90pv-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\90pv-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\90pv-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Add-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Add-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Add-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Add-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Add-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Add-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Add-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Add-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-0.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-0.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-1.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-1.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-3.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-3.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-4.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-4.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-5.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-5.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-6.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-6.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-CNS1-UCS2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-CNS1-UCS2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-0.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-0.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-1.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-1.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-3.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-3.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-4.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-4.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-5.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-5.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-GB1-UCS2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-GB1-UCS2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-0.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-0.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-1.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-1.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-3.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-3.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-4.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-4.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-5.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-5.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-6.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-6.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Japan1-UCS2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Japan1-UCS2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Korea1-0.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Korea1-0.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Korea1-1.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Korea1-1.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Korea1-2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Korea1-2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Adobe-Korea1-UCS2.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Adobe-Korea1-UCS2.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\B5pc-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\B5pc-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\B5pc-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\B5pc-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS1-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS1-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS1-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS1-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS2-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS2-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\CNS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\CNS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETHK-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETHK-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETHK-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETHK-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETen-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETen-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETen-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETen-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETenms-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETenms-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\ETenms-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\ETenms-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Ext-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Ext-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Ext-RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Ext-RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Ext-RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Ext-RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Ext-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Ext-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GB-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GB-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GB-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GB-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GB-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GB-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GB-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GB-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBK-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBK-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBK-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBK-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBK2K-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBK2K-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBK2K-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBK2K-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBKp-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBKp-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBKp-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBKp-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBT-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBT-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBT-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBT-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBT-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBT-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBT-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBT-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBTpc-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBTpc-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBTpc-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBTpc-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBpc-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBpc-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\GBpc-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\GBpc-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKdla-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKdla-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKdla-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKdla-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKdlb-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKdlb-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKdlb-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKdlb-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKgccs-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKgccs-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKgccs-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKgccs-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKm314-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKm314-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKm314-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKm314-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKm471-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKm471-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKm471-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKm471-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKscs-B5-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKscs-B5-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\HKscs-B5-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\HKscs-B5-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Hankaku.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Hankaku.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Hiragana.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Hiragana.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-Johab-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-Johab-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-Johab-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-Johab-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCms-UHC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCms-UHC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCms-UHC-HW-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCms-UHC-HW-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCms-UHC-HW-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCms-UHC-HW-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCms-UHC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCms-UHC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCpc-EUC-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCpc-EUC-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\KSCpc-EUC-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\KSCpc-EUC-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Katakana.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Katakana.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\LICENSE",
+      "PackagePath": "staticwebassets\\web\\cmaps"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\NWP-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\NWP-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\NWP-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\NWP-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\RKSJ-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\RKSJ-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\RKSJ-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\RKSJ-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\Roman.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\Roman.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UCS2-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UCS2-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UCS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UCS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF16-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF16-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF16-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF16-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF8-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF8-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniCNS-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniCNS-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UCS2-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UCS2-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UCS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UCS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF16-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF16-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF16-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF16-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF8-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF8-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniGB-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniGB-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UCS2-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UCS2-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UCS2-HW-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UCS2-HW-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UCS2-HW-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UCS2-HW-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UCS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UCS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF16-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF16-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF16-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF16-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF8-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF8-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF16-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF16-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF16-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF16-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF8-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF8-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJIS2004-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJIS2004-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISPro-UCS2-HW-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISPro-UCS2-HW-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISPro-UCS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISPro-UCS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISPro-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISPro-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISX0213-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISX0213-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISX0213-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISX0213-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISX02132004-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISX02132004-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniJISX02132004-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniJISX02132004-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UCS2-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UCS2-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UCS2-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UCS2-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF16-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF16-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF16-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF16-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF32-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF32-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF32-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF32-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF8-H.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF8-H.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\UniKS-UTF8-V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\UniKS-UTF8-V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\V.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\V.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\cmaps\\WP-Symbol.bcmap",
+      "PackagePath": "staticwebassets\\web\\cmaps\\WP-Symbol.bcmap"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\compressed.tracemonkey-pldi-09.pdf",
+      "PackagePath": "staticwebassets\\web\\compressed.tracemonkey-pldi-09.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\debugger.css",
+      "PackagePath": "staticwebassets\\web\\debugger.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\debugger.mjs",
+      "PackagePath": "staticwebassets\\web\\debugger.mjs"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\altText_add.svg",
+      "PackagePath": "staticwebassets\\web\\images\\altText_add.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\altText_done.svg",
+      "PackagePath": "staticwebassets\\web\\images\\altText_done.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-check.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-check.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-comment.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-comment.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-help.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-help.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-insert.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-insert.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-key.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-key.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-newparagraph.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-newparagraph.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-noicon.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-noicon.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-note.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-note.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-paperclip.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-paperclip.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-paragraph.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-paragraph.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\annotation-pushpin.svg",
+      "PackagePath": "staticwebassets\\web\\images\\annotation-pushpin.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\cursor-editorFreeHighlight.svg",
+      "PackagePath": "staticwebassets\\web\\images\\cursor-editorFreeHighlight.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\cursor-editorFreeText.svg",
+      "PackagePath": "staticwebassets\\web\\images\\cursor-editorFreeText.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\cursor-editorInk.svg",
+      "PackagePath": "staticwebassets\\web\\images\\cursor-editorInk.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\cursor-editorTextHighlight.svg",
+      "PackagePath": "staticwebassets\\web\\images\\cursor-editorTextHighlight.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\editor-toolbar-delete.svg",
+      "PackagePath": "staticwebassets\\web\\images\\editor-toolbar-delete.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\findbarButton-next.svg",
+      "PackagePath": "staticwebassets\\web\\images\\findbarButton-next.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\findbarButton-previous.svg",
+      "PackagePath": "staticwebassets\\web\\images\\findbarButton-previous.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\gv-toolbarButton-download.svg",
+      "PackagePath": "staticwebassets\\web\\images\\gv-toolbarButton-download.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\loading-icon.gif",
+      "PackagePath": "staticwebassets\\web\\images\\loading-icon.gif"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\loading.svg",
+      "PackagePath": "staticwebassets\\web\\images\\loading.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-documentProperties.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-documentProperties.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-firstPage.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-firstPage.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-handTool.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-handTool.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-lastPage.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-lastPage.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-rotateCcw.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-rotateCcw.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-rotateCw.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-rotateCw.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-scrollHorizontal.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-scrollHorizontal.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-scrollPage.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-scrollPage.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-scrollVertical.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-scrollVertical.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-scrollWrapped.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-scrollWrapped.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-selectTool.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-selectTool.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-spreadEven.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-spreadEven.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-spreadNone.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-spreadNone.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\secondaryToolbarButton-spreadOdd.svg",
+      "PackagePath": "staticwebassets\\web\\images\\secondaryToolbarButton-spreadOdd.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-bookmark.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-bookmark.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-currentOutlineItem.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-currentOutlineItem.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-download.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-download.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-editorFreeText.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-editorFreeText.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-editorHighlight.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-editorHighlight.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-editorInk.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-editorInk.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-editorStamp.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-editorStamp.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-menuArrow.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-menuArrow.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-openFile.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-openFile.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-pageDown.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-pageDown.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-pageUp.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-pageUp.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-presentationMode.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-presentationMode.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-print.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-print.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-search.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-search.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-secondaryToolbarToggle.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-secondaryToolbarToggle.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-sidebarToggle.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-sidebarToggle.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-viewAttachments.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-viewAttachments.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-viewLayers.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-viewLayers.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-viewOutline.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-viewOutline.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-viewThumbnail.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-viewThumbnail.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-zoomIn.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-zoomIn.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\toolbarButton-zoomOut.svg",
+      "PackagePath": "staticwebassets\\web\\images\\toolbarButton-zoomOut.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\treeitem-collapsed.svg",
+      "PackagePath": "staticwebassets\\web\\images\\treeitem-collapsed.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\images\\treeitem-expanded.svg",
+      "PackagePath": "staticwebassets\\web\\images\\treeitem-expanded.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ach\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ach\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\af\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\af\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\an\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\an\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ar\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ar\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ast\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ast\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\az\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\az\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\be\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\be\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\bg\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\bg\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\bn\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\bn\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\bo\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\bo\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\br\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\br\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\brx\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\brx\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\bs\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\bs\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ca\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ca\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\cak\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\cak\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ckb\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ckb\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\cs\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\cs\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\cy\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\cy\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\da\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\da\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\de\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\de\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\dsb\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\dsb\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\el\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\el\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\en-CA\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\en-CA\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\en-GB\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\en-GB\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\en-US\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\en-US\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\eo\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\eo\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\es-AR\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\es-AR\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\es-CL\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\es-CL\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\es-ES\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\es-ES\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\es-MX\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\es-MX\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\et\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\et\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\eu\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\eu\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\fa\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\fa\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ff\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ff\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\fi\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\fi\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\fr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\fr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\fur\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\fur\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\fy-NL\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\fy-NL\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ga-IE\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ga-IE\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\gd\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\gd\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\gl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\gl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\gn\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\gn\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\gu-IN\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\gu-IN\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\he\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\he\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hi-IN\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hi-IN\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hsb\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hsb\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hu\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hu\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hy-AM\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hy-AM\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\hye\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\hye\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ia\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ia\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\id\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\id\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\is\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\is\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\it\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\it\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ja\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ja\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ka\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ka\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\kab\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\kab\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\kk\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\kk\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\km\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\km\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\kn\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\kn\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ko\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ko\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\lij\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\lij\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\lo\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\lo\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\locale.json",
+      "PackagePath": "staticwebassets\\web\\locale\\locale.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\lt\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\lt\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ltg\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ltg\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\lv\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\lv\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\meh\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\meh\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\mk\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\mk\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\mr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\mr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ms\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ms\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\my\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\my\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\nb-NO\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\nb-NO\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ne-NP\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ne-NP\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\nl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\nl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\nn-NO\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\nn-NO\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\oc\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\oc\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\pa-IN\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\pa-IN\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\pl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\pl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\pt-BR\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\pt-BR\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\pt-PT\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\pt-PT\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\rm\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\rm\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ro\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ro\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ru\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ru\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sat\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sat\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sc\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sc\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\scn\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\scn\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sco\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sco\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\si\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\si\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sk\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sk\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\skr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\skr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\son\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\son\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sq\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sq\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\sv-SE\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\sv-SE\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\szl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\szl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ta\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ta\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\te\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\te\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\tg\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\tg\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\th\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\th\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\tl\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\tl\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\tr\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\tr\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\trs\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\trs\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\uk\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\uk\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\ur\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\ur\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\uz\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\uz\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\vi\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\vi\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\wo\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\wo\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\xh\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\xh\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\zh-CN\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\zh-CN\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\locale\\zh-TW\\viewer.ftl",
+      "PackagePath": "staticwebassets\\web\\locale\\zh-TW\\viewer.ftl"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitDingbats.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitDingbats.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitFixed.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitFixed.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitFixedBold.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitFixedBold.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitFixedBoldItalic.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitFixedBoldItalic.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitFixedItalic.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitFixedItalic.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitSerif.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitSerif.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitSerifBold.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitSerifBold.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitSerifBoldItalic.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitSerifBoldItalic.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitSerifItalic.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitSerifItalic.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\FoxitSymbol.pfb",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\FoxitSymbol.pfb"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LICENSE_FOXIT",
+      "PackagePath": "staticwebassets\\web\\standard_fonts"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LICENSE_LIBERATION",
+      "PackagePath": "staticwebassets\\web\\standard_fonts"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LiberationSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\LiberationSans-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LiberationSans-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\LiberationSans-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LiberationSans-Italic.ttf",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\LiberationSans-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\standard_fonts\\LiberationSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\web\\standard_fonts\\LiberationSans-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\viewer.css",
+      "PackagePath": "staticwebassets\\web\\viewer.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\viewer.html",
+      "PackagePath": "staticwebassets\\web\\viewer.html"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\viewer.mjs",
+      "PackagePath": "staticwebassets\\web\\viewer.mjs"
+    },
+    {
+      "Id": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\wwwroot\\web\\viewer.mjs.map",
+      "PackagePath": "staticwebassets\\web\\viewer.mjs.map"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ESS.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

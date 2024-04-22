@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\appsettings.original.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\appsettings.original.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\projects\\deft technologies\\2024jspsess\\ess\\controllers\\appraisalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,33 +62,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Original.json",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\appsettings.Original.json",
+              "RelativeDocumentMoniker": "ESS\\appsettings.Original.json",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\appsettings.Original.json",
+              "RelativeToolTip": "ESS\\appsettings.Original.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T13:21:28.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\appsettings.json",
+              "RelativeDocumentMoniker": "ESS\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\appsettings.json",
+              "RelativeToolTip": "ESS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T13:20:45.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "ESS\\Controllers\\LeaveController.cs",
+              "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "ESS\\Controllers\\LeaveController.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAAwBEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T09:53:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppraisalController.cs",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\AppraisalController.cs",
               "RelativeDocumentMoniker": "ESS\\Controllers\\AppraisalController.cs",
               "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\AppraisalController.cs",
               "RelativeToolTip": "ESS\\Controllers\\AppraisalController.cs",
-              "ViewState": "AQIAAEsCAAAAAAAAAAAAwF4CAABMAAAA",
+              "ViewState": "AQIAAEsCAAAAAAAAAAAAwFECAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:58:18.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T11:58:18.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ApprovalsController.cs",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
               "RelativeDocumentMoniker": "ESS\\Controllers\\ApprovalsController.cs",
               "ToolTip": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
               "RelativeToolTip": "ESS\\Controllers\\ApprovalsController.cs",
-              "ViewState": "AQIAALoBAAAAAAAAAAAAAMEBAABAAAAA",
+              "ViewState": "AQIAADACAAAAAAAAAAAswEUCAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T08:57:18.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T08:57:18.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Details.cshtml",
               "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\Details.cshtml",
@@ -84,12 +131,11 @@
               "RelativeToolTip": "ESS\\Views\\Approvals\\Details.cshtml",
               "ViewState": "AQIAAHsAAAAAAAAAAAAAAJUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T10:33:37.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:33:37.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppraisalQuestions.cshtml",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
               "RelativeDocumentMoniker": "ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
@@ -97,12 +143,11 @@
               "RelativeToolTip": "ESS\\Views\\Appraisal\\AppraisalQuestions.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T22:37:24.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T22:37:24.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PopulateAppraisalGoals.cshtml",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
               "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
@@ -110,12 +155,11 @@
               "RelativeToolTip": "ESS\\Views\\Approvals\\PopulateAppraisalGoals.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAAFgAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T10:51:44.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:51:44.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Appraisal.cshtml",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Approvals\\Appraisal.cshtml",
               "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\Appraisal.cshtml",
@@ -123,12 +167,11 @@
               "RelativeToolTip": "ESS\\Views\\Approvals\\Appraisal.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T08:57:27.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T08:57:27.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Projects\\Deft Technologies\\2024JSPSESS\\ESS\\Views\\Appraisal\\Index.cshtml",
               "RelativeDocumentMoniker": "ESS\\Views\\Appraisal\\Index.cshtml",
@@ -136,8 +179,7 @@
               "RelativeToolTip": "ESS\\Views\\Appraisal\\Index.cshtml",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAGsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T13:13:58.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T13:13:58.393Z"
             }
           ]
         },

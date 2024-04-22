@@ -1,7 +1,5 @@
-﻿using DeftOData;
-using ESS.Data;
+﻿using ESS.Data;
 using ESS.Helpers;
-using ESS.Migrations;
 using ESS.Models;
 using ESS.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -132,6 +130,10 @@ namespace ESS.Controllers
             string EmpCode = User.Identity.Name;
 
             BasicHttpBinding binding = new BasicHttpBinding();
+
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
+
             binding.Security.Mode = BasicHttpSecurityMode.Transport;
             //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
@@ -153,7 +155,7 @@ namespace ESS.Controllers
             //EmployeeLeaveApplicationCard
             EndpointAddress endpointEAC = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Page/DEFT_EmployeeLeaveApplicationCard");
             DeftSoap_EmpApplicationCard.DEFT_EmployeeLeaveApplicationCard_PortClient eAP_PortClient = new DeftSoap_EmpApplicationCard.DEFT_EmployeeLeaveApplicationCard_PortClient(binding, endpointEAC);
-           
+
             if (DeftFunctions.deftLoginMode.Equals(DeftLoginMode.BASIC))
             {
                 eAP_PortClient.ClientCredentials.UserName.UserName = DeftFunctions.getUsername(_configuration);
@@ -275,8 +277,8 @@ namespace ESS.Controllers
         {
             string EmpCode = User.Identity.Name;
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             //EmployeeLeaveApplicationCard
@@ -397,6 +399,54 @@ namespace ESS.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult CancelLeaveApplication(string docNo)
+        {
+            //Create Context
+            var serviceRoot = _configuration["BC_API:ODATA_ServiceRoot"] + "Company('" + _configuration["Defaults:Company"] + "')/";
+            var context = new DeftOData.NAV(new Uri(serviceRoot));
+            context.Credentials = new NetworkCredential(_configuration["BC_API:Username"], _configuration["BC_API:Password"]);
+
+            BasicHttpBinding binding = new BasicHttpBinding();
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
+            binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
+
+            //OnlinePortalServices
+            EndpointAddress endpointOPS = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Codeunit/DEFT_OnlinePortalServices");
+            DeftSoap_OPS.DEFT_OnlinePortalServices_PortClient oPS_PortClient = new DeftSoap_OPS.DEFT_OnlinePortalServices_PortClient(binding, endpointOPS);
+
+            if (DeftFunctions.deftLoginMode.Equals(DeftLoginMode.BASIC))
+            {
+                oPS_PortClient.ClientCredentials.UserName.UserName = DeftFunctions.getUsername(_configuration);
+                oPS_PortClient.ClientCredentials.UserName.Password = DeftFunctions.getPassword(_configuration);
+            }
+            else
+            {
+                oPS_PortClient.ClientCredentials.Windows.ClientCredential = DeftFunctions.getNetworkCredential(_configuration);
+            }
+
+			EndpointAddress endpointOPS1 = new EndpointAddress(_configuration["BC_API:SOAP_ServiceRoot"] + _configuration["Defaults:Company"] + "/Page/DEFT_EmployeeLeaveApplicationCard");
+			EmployeeLeaveApplicationCardServiceReference.DEFT_EmployeeLeaveApplicationCard oPS_PortClient1 = new EmployeeLeaveApplicationCardServiceReference.DEFT_EmployeeLeaveApplicationCard();
+
+			try
+            {
+                var result = oPS_PortClient.CancelLeaveApprovalAsync(docNo);
+
+                if (result != null)
+                {
+                    TempData["CancelMessage"] = "Leave application cancelled successfully";
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred");
+            }
+
+            return View("Error");
+
+        }
+
         public IActionResult DetailsLeave(string Id)
         {
             string EmpCode = User.Identity.Name;
@@ -427,7 +477,8 @@ namespace ESS.Controllers
 
 
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             //OnlinePortalServices
@@ -491,12 +542,13 @@ namespace ESS.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditLeave([FromForm]SelectLeaveTypeVM leaveTypeVM)
+        public async Task<IActionResult> EditLeave([FromForm] SelectLeaveTypeVM leaveTypeVM)
         {
             string EmpCode = User.Identity.Name;
 
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             //OnlinePortalServices
@@ -627,7 +679,8 @@ namespace ESS.Controllers
         {
             string EmpCode = User.Identity.Name;
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;//For Http only
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
             binding.Security.Transport.ClientCredentialType = DeftFunctions.getHttpClientCredentialType();
 
             //EmployeeLeaveApplicationCard
@@ -688,11 +741,11 @@ namespace ESS.Controllers
 
                 var relievers = context.CreateQuery<DeftOData.DEFT_LeaveRelievers>("DEFT_LeaveRelievers")
                     .AddQueryOption("$filter", "Leave_Code eq '" + deftAddLeave.ApplicationNo + "'")
-                    .AddQueryOption("$count","true");
+                    .AddQueryOption("$count", "true");
 
-                int relieversCount = relievers.Count(); 
+                int relieversCount = relievers.Count();
 
-                foreach(var item in relievers)
+                foreach (var item in relievers)
                 {
                     DeftSoap_LeaveRelievers.DEFT_LeaveRelievers deleteReliever = lR_PortClient.Read(deftAddLeave.ApplicationNo, deftAddLeave.EmpCode);
                     lR_PortClient.Delete(deleteReliever.Key);
@@ -777,6 +830,7 @@ namespace ESS.Controllers
 
             return View(leaveQuery);
         }
+
         public IActionResult Planner()
         {
             string EmpCode = User.Identity.Name;
@@ -796,5 +850,6 @@ namespace ESS.Controllers
             return View();
 
         }
+
     }
 }

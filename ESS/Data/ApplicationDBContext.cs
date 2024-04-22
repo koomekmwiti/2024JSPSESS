@@ -13,6 +13,7 @@ namespace ESS.Data
 
 		public DbSet<DeftAddLeave> DeftAddLeave { get; set; }
         public DbSet<DeftAddAppraisal> DeftAddAppraisal { get; set; }
+        public DbSet<FileMapping> FileMappings { get; set; }
 
     }
 }

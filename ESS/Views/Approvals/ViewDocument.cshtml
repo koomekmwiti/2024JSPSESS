@@ -1,6 +1,8 @@
 ﻿@model DeftOData.DEFT_EmployeeLeaveApplicationCard;
 
+
 @{
+    DeftOData.DEFT_EmployeeLeaveApplicationCard approval = ViewBag.LeaveQuery;
     ViewData["Title"] = "Details";
 }
 
@@ -47,6 +49,14 @@
                     <div class="alert alert-info alert-dismissible" role="alert">
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         @TempData["Message"]
+                    </div>
+                }
+              
+                @if (TempData["FailMessage"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        @TempData["FailMessage"]
                     </div>
                 }
 
@@ -253,17 +263,33 @@
                             </dd>
                         </dl>
 
+
+                    </div>
+                    <form method="post">
                         <div class="row">
-                            <div style="display:inline" class="float-end">
-                                <a class="btn btn-primary">Approve</a> &nbsp; <a class="btn btn-danger">Reject</a>
+                            <dt class="col-sm-4">
+                                Reject Reason
+                            </dt>
+                            <dd class="col-sm-8">
+                                <textarea type="text" name="rejectreason"> </textarea>
+                            </dd>
+                            <div class=" col-md-2 form-group mb-2">
+                                <input type="hidden" name="docNo" value="@Model.Application_No" />
+                                <button type="submit" class="btn btn-primary form-control" asp-action="ApproveLeave">Approve</button>
+                            </div>
+                            <div class=" col-md-2 form-group mb-2">
+                                <input type="hidden" name="docNo" value="@Model.Application_No" />
+                                <button type="submit" class="btn btn-danger form-control" asp-action="RejectLeave">Reject</button>
                             </div>
                         </div>
-                    </div>
-                </div>
 
+                    </form>
+                </div>
             </div>
+
         </div>
     </div>
+</div>
 </div>
 
 

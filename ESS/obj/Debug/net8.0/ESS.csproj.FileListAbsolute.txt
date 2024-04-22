@@ -2,13 +2,17 @@ D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\appsettings.Devel
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\appsettings.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\appsettings.Original.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\appsettings.Production.json
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\AppraisalListServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\AppraiseeAppraisalCommentsServiceReference\ConnectedService.json
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\ApprovalEntriesServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\ApprovalGoalsServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DeftODataService\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DeftSoap_AppraisalCard\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DeftSoap_EmpApplicationCard\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DeftSoap_LeaveRelievers\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DeftSoap_OPS\ConnectedService.json
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DEFT_OnlinePortalServiceReference\ConnectedService.json
+D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\EmployeeLeaveApplicationCardServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\SupervisorCommentsServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\UnitSubjectServiceReference\ConnectedService.json
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\ESS.staticwebassets.runtime.json
@@ -366,5 +370,3 @@ D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\refint\ESS.dll
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.pdb
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ESS.genruntimeconfig.cache
 D:\Projects\Deft Technologies\2024JSPSESS\ESS\obj\Debug\net8.0\ref\ESS.dll
-D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\AppraisalListServiceReference\ConnectedService.json
-D:\Projects\Deft Technologies\2024JSPSESS\ESS\bin\Debug\net8.0\Connected Services\DEFT_OnlinePortalServiceReference\ConnectedService.json
