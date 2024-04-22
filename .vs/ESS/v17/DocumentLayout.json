@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\SimplaTec\\2024JSPSESS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\views\\leave\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\leave\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\connected services\\employeeleaveapplicationcardservicereference\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\connected services\\employeeleaveapplicationcardservicereference\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\views\\approvals\\viewdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\approvals\\viewdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|d:\\simplatec\\2024jspsess\\ess\\views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D612C8DB-4E37-4C3A-B4C0-6724A9F06278}|ESS\\ESS.csproj|solutionrelative:ess\\views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LeaveController.cs",
-              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
-              "RelativeDocumentMoniker": "ESS\\Controllers\\LeaveController.cs",
-              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\LeaveController.cs",
-              "RelativeToolTip": "ESS\\Controllers\\LeaveController.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAADwv4QAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:44:54.957Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Leave\\Index.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Leave\\Index.cshtml",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Leave\\Index.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Leave\\Index.cshtml",
+              "ViewState": "AQIAANAAAAAAAAAAAAAAAHAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T10:41:23.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "ESS\\Controllers\\ReportsController.cs",
-              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "ESS\\Controllers\\ReportsController.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Connected Services\\EmployeeLeaveApplicationCardServiceReference\\Reference.cs",
+              "RelativeDocumentMoniker": "ESS\\Connected Services\\EmployeeLeaveApplicationCardServiceReference\\Reference.cs",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Connected Services\\EmployeeLeaveApplicationCardServiceReference\\Reference.cs",
+              "RelativeToolTip": "ESS\\Connected Services\\EmployeeLeaveApplicationCardServiceReference\\Reference.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAcwEoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:17:05.032Z",
+              "WhenOpened": "2024-04-22T10:31:01.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Approvals\\Index.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\Index.cshtml",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Approvals\\Index.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Approvals\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswCsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T08:41:37.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewDocument.cshtml",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Approvals\\ViewDocument.cshtml",
+              "RelativeDocumentMoniker": "ESS\\Views\\Approvals\\ViewDocument.cshtml",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Views\\Approvals\\ViewDocument.cshtml",
+              "RelativeToolTip": "ESS\\Views\\Approvals\\ViewDocument.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T11:02:07.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApprovalsController.cs",
+              "DocumentMoniker": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
+              "RelativeDocumentMoniker": "ESS\\Controllers\\ApprovalsController.cs",
+              "ToolTip": "D:\\SimplaTec\\2024JSPSESS\\ESS\\Controllers\\ApprovalsController.cs",
+              "RelativeToolTip": "ESS\\Controllers\\ApprovalsController.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAowKEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T09:32:30.282Z",
               "EditorCaption": ""
             }
           ]
